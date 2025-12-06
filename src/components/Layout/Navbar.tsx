@@ -23,9 +23,6 @@ export const Navbar: React.FC<NavbarProps> = ({ activeTab, onTabChange }) => {
         { key: '1', label: 'Product' },
         { key: '2', label: 'Business Case' },
         { key: '3', label: 'Why Quick2QComm' },
-        { key: '4', label: 'Competitive Moat' },
-        { key: '5', label: 'Unit Economics' },
-        { key: '6', label: 'KPIs & Dashboards' },
     ];
 
     const handleNavClick = (key: string) => {
