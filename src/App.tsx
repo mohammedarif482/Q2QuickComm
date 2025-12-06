@@ -1,26 +1,70 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import { ConfigProvider, Tabs } from 'antd';
+import { Navbar } from './components/Layout/Navbar';
+import { Footer } from './components/Layout/Footer';
+import { ProductTab } from './components/Tabs/ProductTab';
+import { BusinessTab } from './components/Tabs/BusinessTab';
+import { WhyQuick2QCommTab } from './components/Tabs/WhyQuick2QCommTab';
+import { CompetitiveMoatTab } from './components/Tabs/CompetitiveMoatTab';
+import { UnitEconomicsTab } from './components/Tabs/UnitEconomicsTab';
+import { KPIsTab } from './components/Tabs/KPIsTab';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+const App: React.FC = () => {
+    const [activeTab, setActiveTab] = useState('1');
+
+    const items = [
+        { key: '1', label: 'Psdroduct', children: <ProductTab /> },
+        { key: '2', label: 'Business Case', children: <BusinessTab /> },
+        { key: '3', label: 'Why Quick2QComm', children: <WhyQuick2QCommTab /> },
+        { key: '4', label: 'Competitive Moat', children: <CompetitiveMoatTab /> },
+        { key: '5', label: 'Unit Economics', children: <UnitEconomicsTab /> },
+        { key: '6', label: 'KPIs & Dashboards', children: <KPIsTab /> },
+    ];
+
+    return (
+        <ConfigProvider
+            theme={{
+                token: {
+                    colorPrimary: '#E81519',
+                    colorBgBase: '#FFFFFF',
+                    colorTextBase: '#282828',
+                    fontFamily: 'Inter, sans-serif',
+                },
+                components: {
+                    Tabs: {
+                        itemColor: '#64748B', // Slate 500
+                        itemSelectedColor: '#E81519',
+                        itemHoverColor: '#E81519',
+                        inkBarColor: '#E81519',
+                    },
+                    Button: {
+                        colorPrimary: '#E81519',
+                        colorPrimaryHover: '#B81652', // Gradient End Color
+                    }
+                }
+            }}
         >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+            <div className="min-h-screen bg-background text-text-main selection:bg-secondary selection:text-white">
+                <Navbar activeTab={activeTab} onTabChange={setActiveTab} />
+
+                <main className="pt-24">
+                    <div id="main-tabs" className="bg-surface relative z-20">
+                        <Tabs
+                            activeKey={activeTab}
+                            onChange={setActiveTab}
+                            items={items}
+                            centered
+                            size="large"
+                            className=""
+                            destroyInactiveTabPane={true} // Performance optimization
+                        />
+                    </div>
+                </main>
+
+                <Footer />
+            </div>
+        </ConfigProvider>
+    );
 }
 
 export default App;
