@@ -4,7 +4,7 @@ import { Section } from '../UI/Section';
 export const WhyQuick2QCommTab: React.FC = () => {
     return (
         <div className="space-y-12">
-            <Section title="Why Quick2QComm?" subtitle="Leveraging our unfair advantages.">
+            <Section title="Why QComm?" subtitle="Leveraging our unfair advantages.">
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
                     {[
                         { title: "Physical Network", desc: "50+ existing stores acting as dark stores." },
@@ -28,7 +28,7 @@ export const WhyQuick2QCommTab: React.FC = () => {
                                 <th className="p-4 border-b border-slate-200 text-slate-500 font-medium">Feature</th>
                                 <th className="p-4 border-b border-slate-200 text-slate-500 font-medium">Zepto/Blinkit</th>
                                 <th className="p-4 border-b border-slate-200 text-slate-500 font-medium">BigBasket</th>
-                                <th className="p-4 border-b border-primary/20 text-primary bg-primary/5 rounded-t-xl font-bold">Quick2QComm</th>
+                                <th className="p-4 border-b border-primary/20 text-primary bg-primary/5 rounded-t-xl font-bold">QComm</th>
                             </tr>
                         </thead>
                         <tbody className="divide-y divide-slate-200 text-slate-700">

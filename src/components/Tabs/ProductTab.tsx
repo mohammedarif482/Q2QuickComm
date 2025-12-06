@@ -51,7 +51,7 @@ export const ProductTab: React.FC = () => {
                             Winner
                         </div>
                         <h3 className="text-2xl font-bold mb-6 text-primary flex items-center gap-2">
-                            <CheckCircle2 className="w-6 h-6" /> Quick2QComm
+                            <CheckCircle2 className="w-6 h-6" /> QComm
                         </h3>
                         <ul className="space-y-4">
                             <li className="flex items-start gap-3">

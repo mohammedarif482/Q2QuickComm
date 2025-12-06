@@ -15,12 +15,12 @@ export const UnitEconomicsTab: React.FC = () => {
     const capexData = [
         { name: 'Traditional', capex: 50, fill: '#ef4444' },
         { name: 'Dark Store', capex: 25, fill: '#f97316' },
-        { name: 'Quick2QComm', capex: 5, fill: '#10b981' },
+        { name: 'QComm', capex: 5, fill: '#10b981' },
     ];
 
     return (
         <div className="space-y-12">
-            <Section title="Unit Economics" subtitle="The math that makes Quick2QComm profitable from Day 1.">
+            <Section title="Unit Economics" subtitle="The math that makes QComm profitable from Day 1.">
                 <div className="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm">
                     <table className="w-full text-left">
                         <thead className="bg-slate-50 text-slate-500 uppercase text-xs">

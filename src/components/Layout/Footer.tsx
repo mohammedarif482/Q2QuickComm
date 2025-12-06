@@ -9,9 +9,9 @@ export const Footer: React.FC = () => {
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
                     <div className="col-span-1 md:col-span-2">
                         <div className="flex items-center gap-2 mb-6">
-                            <img src="/q2qlight.png" alt="Quick2QComm" className="h-12 w-auto" />
+                            <img src="/q2qlight.png" alt="QComm" className="h-12 w-auto" />
                             <span className="text-xl font-bold text-white">
-                                Quick2<span className="text-primary">QComm</span>
+                                Q<span className="text-primary">Comm</span>
                             </span>
                         </div>
                         <p className="text-slate-400 text-lg leading-relaxed max-w-md mb-8">
@@ -32,7 +32,7 @@ export const Footer: React.FC = () => {
                         <div className="space-y-4">
                             <a href="mailto:hello@quick2qcomm.com" className="flex items-center gap-3 text-slate-400 hover:text-white transition-colors">
                                 <Mail className="w-5 h-5" />
-                                hello@quick2qcomm.com
+                                hello@qcomm.com
                             </a>
                             <div className="flex items-center gap-3 text-slate-400">
                                 <Phone className="w-5 h-5" />
@@ -52,7 +52,7 @@ export const Footer: React.FC = () => {
                 </div>
 
                 <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-slate-500 text-sm">
-                    <div>© 2024 Quick2QComm. All rights reserved.</div>
+                    <div>© 2024 QComm. All rights reserved.</div>
                     <div className="flex gap-8">
                         <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
                         <a href="#" className="hover:text-white transition-colors">Terms of Service</a>

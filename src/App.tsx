@@ -8,6 +8,7 @@ import { WhyQuick2QCommTab } from './components/Tabs/WhyQuick2QCommTab';
 import { CompetitiveMoatTab } from './components/Tabs/CompetitiveMoatTab';
 import { UnitEconomicsTab } from './components/Tabs/UnitEconomicsTab';
 import { KPIsTab } from './components/Tabs/KPIsTab';
+import { ForwardTab } from './components/Tabs/ForwardTab';
 
 const App: React.FC = () => {
     const [activeTab, setActiveTab] = useState('1');
@@ -15,10 +16,8 @@ const App: React.FC = () => {
     const items = [
         { key: '1', label: 'Product', children: <ProductTab /> },
         { key: '2', label: 'Business Case', children: <BusinessTab /> },
-        { key: '3', label: 'Why Quick2QComm', children: <WhyQuick2QCommTab /> },
-        { key: '4', label: 'Competitive Moat', children: <CompetitiveMoatTab /> },
-        { key: '5', label: 'Unit Economics', children: <UnitEconomicsTab /> },
-        { key: '6', label: 'KPIs & Dashboards', children: <KPIsTab /> },
+        { key: '3', label: 'Impact & Outcomes', children: <WhyQuick2QCommTab /> },
+        { key: '4', label: 'Forward', children: <ForwardTab /> },
     ];
 
     return (

@@ -22,7 +22,8 @@ export const Navbar: React.FC<NavbarProps> = ({ activeTab, onTabChange }) => {
     const navItems = [
         { key: '1', label: 'Product' },
         { key: '2', label: 'Business Case' },
-        { key: '3', label: 'Why Quick2QComm' },
+        { key: '3', label: 'Impact & Outcomes' },
+        { key: '4', label: 'Forward' },
     ];
 
     const handleNavClick = (key: string) => {
@@ -39,9 +40,9 @@ export const Navbar: React.FC<NavbarProps> = ({ activeTab, onTabChange }) => {
             }`}>
             <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
                 <div className="flex items-center gap-2 cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-                    <img src="/q2qdark.png" alt="Quick2QComm" className="h-12 w-auto" />
+                    <img src="/q2qdark.png" alt="QComm" className="h-12 w-auto" />
                     <span className="text-xl font-bold text-secondary">
-                        Quick2<span className="text-primary">QComm</span>
+                        Q<span className="text-primary">Comm</span>
                     </span>
                 </div>
 

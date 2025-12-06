@@ -36,13 +36,13 @@ export const CompetitiveMoatTab: React.FC = () => {
                                     <YAxis stroke="#64748B" unit="%" />
                                     <Tooltip contentStyle={{ backgroundColor: '#fff', border: '1px solid #e2e8f0', color: '#1e293b' }} />
                                     <Legend />
-                                    <Area type="monotone" dataKey="jj" name="Quick2QComm (Trust)" stroke="#10B981" fillOpacity={1} fill="url(#colorJj)" strokeWidth={2} />
+                                    <Area type="monotone" dataKey="jj" name="QComm (Trust)" stroke="#10B981" fillOpacity={1} fill="url(#colorJj)" strokeWidth={2} />
                                     <Area type="monotone" dataKey="zepto" name="Competitors (Cashback)" stroke="#EF4444" fillOpacity={1} fill="url(#colorZepto)" strokeWidth={2} />
                                 </AreaChart>
                             </ResponsiveContainer>
                         </div>
                         <p className="mt-4 text-slate-600 text-sm">
-                            Quick2QComm retains <span className="text-green-600 font-bold">2.2x</span> more users by Month 6 due to trust and physical store integration.
+                            QComm retains <span className="text-green-600 font-bold">2.2x</span> more users by Month 6 due to trust and physical store integration.
                         </p>
                     </div>
 
@@ -66,7 +66,7 @@ export const CompetitiveMoatTab: React.FC = () => {
                     {[
                         { phase: "Phase 1: Grocery", time: "Month 0-6", desc: "Dominate fresh and daily essentials." },
                         { phase: "Phase 2: Categories", time: "Month 6-12", desc: "Expand to Pharma, Electronics, and Beauty." },
-                        { phase: "Phase 3: Subscription", time: "Year 2+", desc: "Quick2QComm Prime members get free delivery + in-store perks." }
+                        { phase: "Phase 3: Subscription", time: "Year 2+", desc: "QComm Prime members get free delivery + in-store perks." }
                     ].map((step, i) => (
                         <div key={i} className="relative pl-8">
                             <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-primary border-4 border-white shadow-sm" />
