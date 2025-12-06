@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ConfigProvider, Tabs } from 'antd';
+import { ConfigProvider } from 'antd';
 import { Navbar } from './components/Layout/Navbar';
 import { Footer } from './components/Layout/Footer';
 import { ProductTab } from './components/Tabs/ProductTab';
@@ -13,7 +13,7 @@ const App: React.FC = () => {
     const [activeTab, setActiveTab] = useState('1');
 
     const items = [
-        { key: '1', label: 'Psdroduct', children: <ProductTab /> },
+        { key: '1', label: 'Product', children: <ProductTab /> },
         { key: '2', label: 'Business Case', children: <BusinessTab /> },
         { key: '3', label: 'Why Quick2QComm', children: <WhyQuick2QCommTab /> },
         { key: '4', label: 'Competitive Moat', children: <CompetitiveMoatTab /> },
@@ -49,15 +49,7 @@ const App: React.FC = () => {
 
                 <main className="pt-24">
                     <div id="main-tabs" className="bg-surface relative z-20">
-                        <Tabs
-                            activeKey={activeTab}
-                            onChange={setActiveTab}
-                            items={items}
-                            centered
-                            size="large"
-                            className=""
-                            destroyInactiveTabPane={true} // Performance optimization
-                        />
+                        {items.find(item => item.key === activeTab)?.children}
                     </div>
                 </main>
 
