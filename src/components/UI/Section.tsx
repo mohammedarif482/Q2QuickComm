@@ -20,12 +20,12 @@ export const Section: React.FC<SectionProps> = ({ children, className = '', id, 
                     className="text-center mb-16"
                 >
                     {title && (
-                        <h2 className="text-3xl md:text-5xl font-bold mb-4 text-secondary">
+                        <h2 className="text-3xl md:text-5xl font-bold mb-4 text-text-main">
                             {title}
                         </h2>
                     )}
                     {subtitle && (
-                        <p className="text-xl text-slate-600 max-w-2xl mx-auto">
+                        <p className="text-xl text-text-muted max-w-2xl mx-auto">
                             {subtitle}
                         </p>
                     )}

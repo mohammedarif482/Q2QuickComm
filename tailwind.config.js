@@ -1,42 +1,61 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
       colors: {
-        primary: '#E81519', // New Brand Red
-        secondary: '#282828', // Dark Grey
-        accent: '#B81652', // Berry/Dark Pink from gradient
-        background: '#FFFFFF', // White
-        surface: '#F8FAFC', // Slate 50
-        "text-main": '#282828', // Dark Grey Text
+        primary: '#16A34A', // Green 600
+        primaryDark: '#166534', // Green 700
+        primarySoft: '#DCFCE7', // Green 100
+        secondary: '#064E3B', // Dark green header
+        accent: '#F97316', // Warm orange accent
+        background: '#F9FAFB', // Overall page bg
+        surface: '#FFFFFF', // Cards
+        'surface-soft': '#F1F5F9',
+        'text-main': '#111827', // Slate 900
+        'text-muted': '#6B7280', // Slate 500
       },
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
+        sans: ['Inter', 'system-ui', 'sans-serif'],
       },
       backgroundImage: {
-        'gradient-main': 'linear-gradient(135deg, #FFFFFF 0%, #F1F5F9 100%)',
-        'gradient-brand': 'linear-gradient(90deg, #E81519 38%, #B81652 100%)',
-        'glass': 'rgba(255, 255, 255, 0.7)',
+        'gradient-main':
+          'linear-gradient(135deg, #ECFDF3 0%, #F9FAFB 45%, #E0F2FE 100%)',
+        'gradient-hero':
+          'radial-gradient(circle at top left, #BBF7D0 0, #F9FAFB 55%)',
+        'gradient-cta':
+          'linear-gradient(90deg, #16A34A 0%, #22C55E 50%, #15803D 100%)',
+        'glass':
+          'linear-gradient(135deg, rgba(255,255,255,0.85), rgba(255,255,255,0.9))',
       },
-      keyframes: {
-        fadeIn: {
-          '0%': { opacity: '0' },
-          '100%': { opacity: '1' },
-        },
-        slideUp: {
-          '0%': { transform: 'translateY(20px)', opacity: '0' },
-          '100%': { transform: 'translateY(0)', opacity: '1' },
-        },
+      boxShadow: {
+        card: '0 18px 45px rgba(15, 23, 42, 0.12)',
+        soft: '0 10px 30px rgba(15, 23, 42, 0.08)',
+      },
+      borderRadius: {
+        xl: '1.25rem',
+        '2xl': '1.5rem',
+        full: '999px',
+      },
+      spacing: {
+        18: '4.5rem',
       },
       animation: {
-        fadeIn: 'fadeIn 0.8s ease-out forwards',
-        slideUp: 'slideUp 0.6s ease-out forwards',
+        'float-slow': 'float 8s ease-in-out infinite',
+        'fade-up': 'fadeUp 500ms ease-out forwards',
+      },
+      keyframes: {
+        float: {
+          '0%, 100%': { transform: 'translateY(0px)' },
+          '50%': { transform: 'translateY(-8px)' },
+        },
+        fadeUp: {
+          '0%': { opacity: 0, transform: 'translateY(12px)' },
+          '100%': { opacity: 1, transform: 'translateY(0)' },
+        },
       },
     },
   },
   plugins: [],
-}
+};
 
