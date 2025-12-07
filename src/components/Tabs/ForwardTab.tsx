@@ -14,10 +14,10 @@ export const ForwardTab: React.FC = () => {
             >
                 <div className="max-w-4xl mx-auto text-center">
                     <p className="text-xl text-slate-600 leading-relaxed mb-8">
-                        JamJoom Quick is not a one‑off app build. It is a white‑label product that keeps evolving with your customers, your stores and the wider quick‑commerce market.
+                        Q Comm is not a one‑off app build. It is a white‑label product that keeps evolving with your customers, your stores and the wider quick‑commerce market.
                     </p>
                     <p className="text-lg text-slate-700 font-semibold bg-emerald-50 inline-block px-6 py-2 rounded-full border border-emerald-100">
-                        The roadmap, feature drops and support model are designed so JamJoom can keep compounding value without rebuilding technology every 2–3 years.
+                        The roadmap, feature drops and support model are designed so Hyper Market can keep compounding value without rebuilding technology every 2–3 years.
                     </p>
                 </div>
             </Section>
@@ -29,7 +29,7 @@ export const ForwardTab: React.FC = () => {
                 className="bg-slate-50 rounded-3xl my-8 py-16"
             >
                 <p className="text-center text-slate-600 max-w-3xl mx-auto mb-12 text-lg">
-                    We maintain a living roadmap based on what is working for leading quick‑commerce players, what customers in Kerala are asking for, and what JamJoom’s stores need operationally.
+                    We maintain a living roadmap based on what is working for leading quick‑commerce players, what customers in Kerala are asking for, and what Hyper Market’s stores need operationally.
                 </p>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -59,14 +59,14 @@ export const ForwardTab: React.FC = () => {
                 </div>
 
                 <div className="text-center mt-12 bg-white inline-block px-8 py-4 rounded-full shadow-sm border border-slate-200 mx-auto w-fit max-w-2xl">
-                    <span className="text-slate-700 font-medium">✨ Every quarter, JamJoom sees a clear “feature drop” pack with what is shipping, the value it unlocks and how to roll it out to stores.</span>
+                    <span className="text-slate-700 font-medium">✨ Every quarter, Hyper Market sees a clear “feature drop” pack with what is shipping, the value it unlocks and how to roll it out to stores.</span>
                 </div>
             </Section>
 
             {/* Section 3 – On‑demand features */}
             <Section
                 title="Your needs go to the top of the backlog."
-                subtitle="Because the product is white‑labelled, JamJoom gets a priority lane for customisation requests that make sense for your network."
+                subtitle="Because the product is white‑labelled, Hyper Market gets a priority lane for customisation requests that make sense for your network."
             >
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
                     <div className="flex flex-col gap-4 p-8 bg-white border border-slate-200 rounded-3xl hover:border-emerald-300 transition-colors group">
@@ -101,7 +101,7 @@ export const ForwardTab: React.FC = () => {
                 </div>
 
                 <p className="text-center mt-12 text-slate-500 italic max-w-2xl mx-auto bg-slate-50 py-3 px-6 rounded-full">
-                    Note: We’ll maintain a joint wishlist with JamJoom leadership, rank items by impact vs effort, and slot agreed items into upcoming sprints.
+                    Note: We’ll maintain a joint wishlist with Hyper Market leadership, rank items by impact vs effort, and slot agreed items into upcoming sprints.
                 </p>
             </Section>
 
@@ -119,7 +119,7 @@ export const ForwardTab: React.FC = () => {
                         </span>
                     </h2>
                     <p className="text-xl text-slate-300 max-w-3xl mx-auto">
-                        Our team continually analyses data from JamJoom Quick—orders, locations, customer cohorts and product performance—to recommend where and how to expand.
+                        Our team continually analyses data from Q Comm—orders, locations, customer cohorts and product performance—to recommend where and how to expand.
                     </p>
                 </div>
 
@@ -129,7 +129,7 @@ export const ForwardTab: React.FC = () => {
                             <BarChartOutlined className="text-2xl text-emerald-400" />
                         </div>
                         <h4 className="text-xl font-bold mb-3 text-white">New catchments & stores</h4>
-                        <p className="text-slate-300 text-lg leading-relaxed">Identify high‑potential pin codes where quick‑commerce demand is strong and JamJoom stores or dark‑store‑style extensions could work best.</p>
+                        <p className="text-slate-300 text-lg leading-relaxed">Identify high‑potential pin codes where quick‑commerce demand is strong and Hyper Market stores or dark‑store‑style extensions could work best.</p>
                     </div>
 
                     <div className="bg-white/5 backdrop-blur-lg p-8 rounded-3xl border border-white/10 hover:bg-white/10 transition-colors">
@@ -151,7 +151,7 @@ export const ForwardTab: React.FC = () => {
 
                 <div className="relative z-10 mt-16 text-center px-4">
                     <p className="text-2xl font-bold text-white max-w-4xl mx-auto bg-white/10 py-6 px-8 rounded-2xl backdrop-blur-sm border border-white/20">
-                        The goal is simple: keep discovering small, compounding changes that grow JamJoom’s GMV, margins and customer lifetime value year after year.
+                        The goal is simple: keep discovering small, compounding changes that grow Hyper Market’s GMV, margins and customer lifetime value year after year.
                     </p>
                 </div>
             </Section>
@@ -162,15 +162,15 @@ export const ForwardTab: React.FC = () => {
                 subtitle="Built to plug into whatever comes next."
             >
                 <p className="text-center text-slate-600 max-w-4xl mx-auto mb-16 text-xl leading-relaxed">
-                    JamJoom Quick is architected so new technologies can be layered in without rewiring the whole system. As customer expectations and tools evolve—whether that is AI, ONDC‑style networks, new payment rails or smarter logistics—JamJoom can adopt them early instead of playing catch‑up.
+                    Q Comm is architected so new technologies can be layered in without rewiring the whole system. As customer expectations and tools evolve—whether that is AI, ONDC‑style networks, new payment rails or smarter logistics—Hyper Market can adopt them early instead of playing catch‑up.
                 </p>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-10">
                     {[
                         { title: "AI everywhere, not just in one feature", desc: "From smarter search and recommendations to demand forecasting and staff scheduling, the platform is built to let new AI models slot into individual services as they mature—without breaking store operations." },
                         { title: "Open, API‑first integrations", desc: "Using an API‑centric approach makes it easier to connect to future services such as new payment options, national commerce networks, marketing tools or third‑party logistics providers as they become relevant for Kerala tier‑3 markets." },
-                        { title: "Experimentation without risk", desc: "New technologies can be trialled in one or two JamJoom stores or customer segments first, measured for real business impact, and only then scaled chain‑wide—so experimentation doesn’t jeopardise day‑to‑day business." },
-                        { title: "Continuous learning loop", desc: "As quick commerce and digital grocery models keep evolving in India, the product roadmap stays informed by what is working in other markets, but always adapted to JamJoom’s own data, customers and store formats." },
+                        { title: "Experimentation without risk", desc: "New technologies can be trialled in one or two Hyper Market stores or customer segments first, measured for real business impact, and only then scaled chain‑wide—so experimentation doesn’t jeopardise day‑to‑day business." },
+                        { title: "Continuous learning loop", desc: "As quick commerce and digital grocery models keep evolving in India, the product roadmap stays informed by what is working in other markets, but always adapted to Hyper Market’s own data, customers and store formats." },
                     ].map((item, i) => (
                         <div key={i} className="flex gap-6">
                             <div className="w-4 h-4 rounded-full bg-emerald-500 mt-2 shadow-[0_0_0_4px_rgba(16,185,129,0.2)] shrink-0" />
@@ -184,7 +184,7 @@ export const ForwardTab: React.FC = () => {
 
                 <div className="mt-16 bg-emerald-50 p-8 rounded-2xl text-center border border-emerald-100 max-w-4xl mx-auto">
                     <p className="text-emerald-800 font-bold text-xl">
-                        The commitment is simple: JamJoom should not have to think about “which new tech to chase next”. The platform will keep absorbing what is proven, useful and profitable—so JamJoom stays modern by default, not by exception.
+                        The commitment is simple: Hyper Market should not have to think about “which new tech to chase next”. The platform will keep absorbing what is proven, useful and profitable—so Hyper Market stays modern by default, not by exception.
                     </p>
                 </div>
             </Section>
@@ -198,14 +198,14 @@ export const ForwardTab: React.FC = () => {
                 <div className="flex flex-col xl:flex-row gap-16 items-center">
                     <div className="flex-1 w-full">
                         <p className="text-xl text-slate-700 mb-10 leading-relaxed font-medium">
-                            To keep JamJoom Quick stable and evolving, we operate on a clear Annual Maintenance Contract (AMC). This covers day‑to‑day reliability as well as planned evolution.
+                            To keep Q Comm stable and evolving, we operate on a clear Annual Maintenance Contract (AMC). This covers day‑to‑day reliability as well as planned evolution.
                         </p>
 
                         <div className="space-y-6">
                             {[
                                 { label: "Uptime & reliability", text: "Monitoring, bug fixes, security patches and performance tuning so the app, rider tools and dashboards remain fast and dependable." },
                                 { label: "Compatibility updates", text: "Keeping up with Android/iOS changes, browser updates and third‑party service changes (payments, maps, messaging)." },
-                                { label: "Quarterly roadmap reviews", text: "A structured check‑in every quarter to review metrics, prioritise upcoming feature drops and adjust the plan to JamJoom’s business goals." },
+                                { label: "Quarterly roadmap reviews", text: "A structured check‑in every quarter to review metrics, prioritise upcoming feature drops and adjust the plan to Hyper Market’s business goals." },
                                 { label: "Support channels", text: "Named contacts, SLAs for issue response, and a clear escalation path for anything that could affect operations." },
                             ].map((item, i) => (
                                 <div key={i} className="flex items-start gap-5 p-6 bg-white rounded-2xl shadow-sm border border-slate-200 hover:shadow-md transition-shadow">
@@ -220,11 +220,11 @@ export const ForwardTab: React.FC = () => {
                     </div>
 
                     <div className="flex-1 w-full">
-                        <div className="bg-gradient-to-br from-emerald-600 to-green-500 rounded-3xl p-12 text-white shadow-2xl relative overflow-hidden">
+                        <div className="bg-slate-900 rounded-3xl p-12 text-white shadow-2xl relative overflow-hidden">
                             <div className="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
-                            <h3 className="text-3xl font-bold mb-6 relative z-10">Our Promise</h3>
-                            <p className="text-xl opacity-90 leading-relaxed relative z-10">
-                                With JamJoom Quick as a white‑label platform plus a clear AMC and roadmap, JamJoom gets the benefits of a dedicated in‑house product team—without carrying the full tech and research load itself.
+                            <h3 className="text-3xl font-bold mb-6 relative z-10 text-emerald-400">Our Promise</h3>
+                            <p className="text-xl text-white leading-relaxed relative z-10">
+                                With Q Comm as a white‑label platform plus a clear AMC and roadmap, Hyper Market gets the benefits of a dedicated in‑house product team—without carrying the full tech and research load itself.
                             </p>
                         </div>
                     </div>

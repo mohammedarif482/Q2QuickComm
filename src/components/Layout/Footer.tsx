@@ -6,7 +6,7 @@ export const Footer: React.FC = () => {
     return (
         <footer className="bg-secondary border-t border-white/10 pt-20 pb-10">
             <div className="max-w-7xl mx-auto px-6">
-                <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-16">
                     <div className="col-span-1 md:col-span-2">
                         <div className="flex items-center gap-2 mb-6">
                             <img src="/qcommlight.png" alt="QComm" className="h-12 w-auto" />
@@ -19,35 +19,20 @@ export const Footer: React.FC = () => {
                             The future of grocery retail is here.
                         </p>
                         <div className="flex gap-4">
-                            {['Twitter', 'LinkedIn', 'Instagram'].map((social) => (
-                                <a key={social} href="#" className="text-slate-400 hover:text-primary transition-colors">
-                                    {social}
-                                </a>
-                            ))}
-                        </div>
-                    </div>
-
-                    <div>
-                        <h4 className="text-white font-bold mb-6">Contact</h4>
-                        <div className="space-y-4">
-                            <a href="mailto:hello@qcomm.com" className="flex items-center gap-3 text-slate-300 hover:text-primary transition-colors">
-                                <Mail className="w-5 h-5" />
-                                hello@qcomm.com
+                            <a href="https://www.linkedin.com/company/made-of-curiosity" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-primary transition-colors">
+                                LinkedIn
                             </a>
-                            <div className="flex items-center gap-3 text-slate-300">
-                                <Phone className="w-5 h-5" />
-                                +91 98765 43210
-                            </div>
-                            <div className="flex items-center gap-3 text-slate-300">
-                                <MapPin className="w-5 h-5" />
-                                Bengaluru, India
-                            </div>
+                            <a href="https://www.instagram.com/madeofcuriosity/" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-primary transition-colors">
+                                Instagram
+                            </a>
                         </div>
                     </div>
 
-                    <div>
-                        <p className="text-slate-300 italic mb-4">From The Infinite Canvas Of</p>
-                        <img src="/MOC.png" alt="MOC" className="h-20 w-auto" />
+
+
+                    <div className="flex flex-col md:items-end justify-end h-full">
+                        <p className="text-slate-300 italic mb-4 text-right">From The Infinite Canvas Of</p>
+                        <img src="/MOC2.png" alt="MOC" className="h-20 w-auto" />
                     </div>
                 </div>
 

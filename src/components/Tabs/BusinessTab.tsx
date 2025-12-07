@@ -28,7 +28,7 @@ interface BusinessTabProps {
 export const BusinessTab: React.FC<BusinessTabProps> = ({ onTabChange }) => {
     return (
         <div className="space-y-0">
-            {/* 1. Hero Section - How it fits into JamJoom */}
+            {/* 1. Hero Section - How it fits into Hyper Market */}
             <Section className="!py-12 bg-white">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     <motion.div
@@ -43,7 +43,7 @@ export const BusinessTab: React.FC<BusinessTabProps> = ({ onTabChange }) => {
                             Drop‑in quick commerce, not a rip‑and‑replace project.
                         </h1>
                         <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-                            JamJoom Quick sits on top of your existing billing and store operations. The app talks to your POS, your staff handle fulfilment, and a light partner app manages riders—all stitched together by one central dashboard.
+                            Q Comm sits on top of your existing billing and store operations. The app talks to your POS, your staff handle fulfilment, and a light partner app manages riders—all stitched together by one central dashboard.
                         </p>
 
                         <div className="space-y-4">
@@ -115,7 +115,7 @@ export const BusinessTab: React.FC<BusinessTabProps> = ({ onTabChange }) => {
                         <div className="lg:col-span-2">
                             <h2 className="text-3xl font-bold mb-6 text-gray-900">Phase 1: Go live fast with Custom Search + POS feed.</h2>
                             <p className="text-lg text-gray-600 mb-8">
-                                To get JamJoom Quick off the ground, we start with a simple integration: a daily product feed from your billing system (name, barcode, price, stock) and an image layer powered by a custom search API.
+                                To get Q Comm off the ground, we start with a simple integration: a daily product feed from your billing system (name, barcode, price, stock) and an image layer powered by a custom search API.
                             </p>
                             <p className="text-lg text-gray-600 mb-8">
                                 Most FMCG and grocery SKUs already have high‑quality images on the web, so 70–80% of the catalog can be visually complete in days, not months.
@@ -137,7 +137,7 @@ export const BusinessTab: React.FC<BusinessTabProps> = ({ onTabChange }) => {
                             </div>
 
                             <p className="text-sm text-gray-500 italic border-l-4 border-green-200 pl-4">
-                                This “easy start” path gives JamJoom a polished digital shelf quickly, while we prepare deeper, real‑time integrations in the background.
+                                This “easy start” path gives Hyper Market a polished digital shelf quickly, while we prepare deeper, real‑time integrations in the background.
                             </p>
                         </div>
 
@@ -221,14 +221,14 @@ export const BusinessTab: React.FC<BusinessTabProps> = ({ onTabChange }) => {
                         <div>
                             <h2 className="text-3xl font-bold mb-6 text-gray-900">A lightweight partner app for riders and local fleets.</h2>
                             <p className="text-lg text-gray-600 mb-8">
-                                Quick commerce fails when delivery is handled over phone calls and WhatsApp. JamJoom Quick ships with a dedicated partner app so riders know exactly what to pick up, where to go, and how they are paid.
+                                Quick commerce fails when delivery is handled over phone calls and WhatsApp. Q Comm ships with a dedicated partner app so riders know exactly what to pick up, where to go, and how they are paid.
                             </p>
 
                             <div className="space-y-6">
                                 {[
                                     {
                                         title: "Order queue by store",
-                                        desc: "Riders see nearby orders from a specific JamJoom store, with pickup time, drop location, and pay per drop."
+                                        desc: "Riders see nearby orders from a specific Hyper Market store, with pickup time, drop location, and pay per drop."
                                     },
                                     {
                                         title: "Navigation & proof of delivery",
@@ -236,7 +236,7 @@ export const BusinessTab: React.FC<BusinessTabProps> = ({ onTabChange }) => {
                                     },
                                     {
                                         title: "Flexible sourcing",
-                                        desc: "Works with JamJoom’s own riders, third‑party fleet partners, or a mix."
+                                        desc: "Works with Hyper Market’s own riders, third‑party fleet partners, or a mix."
                                     },
                                     {
                                         title: "Basic earnings view",
@@ -302,7 +302,7 @@ export const BusinessTab: React.FC<BusinessTabProps> = ({ onTabChange }) => {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     <div>
                         <p className="text-lg text-gray-600 mb-6">
-                            Every JamJoom Quick order ends its journey inside your existing billing software, just like a walk‑in customer—only under a separate “online” or “quick commerce” counter code.
+                            Every Q Comm order ends its journey inside your existing billing software, just like a walk‑in customer—only under a separate “online” or “quick commerce” counter code.
                         </p>
                         <p className="text-lg text-gray-600 mb-8">
                             That means stock, sales, discounts and taxes remain consistent across offline and online channels, with no extra reconciliation at month‑end.
@@ -321,7 +321,7 @@ export const BusinessTab: React.FC<BusinessTabProps> = ({ onTabChange }) => {
                             ))}
                         </div>
                         <p className="mt-4 font-semibold text-blue-800">
-                            Result: For finance, JamJoom Quick is “just another billing counter”.
+                            Result: For finance, Q Comm is “just another billing counter”.
                         </p>
                     </div>
 
@@ -392,7 +392,7 @@ export const BusinessTab: React.FC<BusinessTabProps> = ({ onTabChange }) => {
                                 <div className="w-8 h-8 bg-green-600 rounded-lg flex items-center justify-center">
                                     <div className="w-4 h-4 border-2 border-white rounded-full" />
                                 </div>
-                                <span className="text-white font-bold tracking-wide">JamJoom QC</span>
+                                <span className="text-white font-bold tracking-wide">Q Comm</span>
                             </div>
 
                             <div className="space-y-1">
@@ -499,7 +499,7 @@ export const BusinessTab: React.FC<BusinessTabProps> = ({ onTabChange }) => {
                                         ].map((item, i) => (
                                             <div key={i} className="flex gap-3 p-2 hover:bg-slate-800/50 rounded-lg transition-colors items-start">
                                                 <div className={`mt-1.5 w-2 h-2 rounded-full shrink-0 ${item.type === 'success' ? 'bg-green-500' :
-                                                        item.type === 'warning' ? 'bg-orange-500' : 'bg-blue-500'
+                                                    item.type === 'warning' ? 'bg-orange-500' : 'bg-blue-500'
                                                     }`} />
                                                 <div className="flex-1 min-w-0">
                                                     <div className="text-sm text-slate-300 truncate">{item.text}</div>
@@ -538,14 +538,7 @@ export const BusinessTab: React.FC<BusinessTabProps> = ({ onTabChange }) => {
                     <p className="text-gray-400 mb-6 max-w-2xl mx-auto">
                         This integration layer is designed to be thin, modular and reversible—start with the Custom Search + POS feed, then deepen integrations only as quick‑commerce volume and confidence grow.
                     </p>
-                    <Button
-                        type="primary"
-                        size="large"
-                        className="bg-green-600 hover:bg-green-500 border-none h-12 px-8 text-lg font-semibold"
-                        onClick={() => onTabChange?.('3')}
-                    >
-                        Next: Case Impact & Outcomes <ArrowRight className="inline-block ml-2 w-5 h-5" />
-                    </Button>
+
                 </div>
             </Section>
         </div>

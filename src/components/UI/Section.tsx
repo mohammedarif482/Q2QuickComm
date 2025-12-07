@@ -5,8 +5,8 @@ interface SectionProps {
     children: ReactNode;
     className?: string;
     id?: string;
-    title?: string;
-    subtitle?: string;
+    title?: ReactNode;
+    subtitle?: ReactNode;
 }
 
 export const Section: React.FC<SectionProps> = ({ children, className = '', id, title, subtitle }) => {

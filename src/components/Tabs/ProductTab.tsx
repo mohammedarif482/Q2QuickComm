@@ -43,22 +43,22 @@ export const ProductTab: React.FC<ProductTabProps> = ({ onTabChange }) => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 items-center">
                     <div className="space-y-8">
                         <div className="inline-flex items-center px-4 py-1.5 rounded-full text-xs font-semibold bg-green-100 text-green-800 tracking-wide uppercase">
-                            Built for JamJoom stores
+                            Built for Hyper Market stores
                         </div>
 
                         <h1 className="text-4xl md:text-6xl font-bold tracking-tight leading-[1.1] text-slate-900">
-                            Turn every JamJoom outlet into a 30‑minute commerce engine.
+                            Turn every Hyper Market outlet into a 30‑minute commerce engine.
                         </h1>
 
                         <p className="text-lg md:text-xl text-slate-500 leading-relaxed max-w-lg">
-                            A modern quick‑commerce layer on top of your existing POS and stores—no dark warehouses, no new staff model, just one app that makes JamJoom shoppable from anywhere in the city.
+                            A modern quick‑commerce layer on top of your existing POS and stores—no dark warehouses, no new staff model, just one app that makes Hyper Market shoppable from anywhere in the city.
                         </p>
 
                         <ul className="space-y-4 pt-2">
                             {[
                                 "Live inventory from your billing system, not a static catalog.",
-                                "One JamJoom app for all locations, auto‑routing orders to the right store.",
-                                "Designed to feel as smooth as Swiggy Instamart or Zepto, but fully JamJoom‑branded."
+                                "One Hyper Market app for all locations, auto‑routing orders to the right store.",
+                                "Designed to feel as smooth as Swiggy Instamart or Zepto, but fully Hyper Market‑branded."
                             ].map((item, i) => (
                                 <li key={i} className="flex items-start gap-3">
                                     <div className="mt-1.5 w-5 h-5 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0">
@@ -102,10 +102,10 @@ export const ProductTab: React.FC<ProductTabProps> = ({ onTabChange }) => {
                 <div className="max-w-7xl mx-auto px-6 md:px-8">
                     <div className="max-w-3xl mx-auto text-center space-y-6 mb-20">
                         <h2 className="text-3xl md:text-5xl font-bold text-slate-900 tracking-tight">
-                            A familiar, Instamart‑grade experience—under the JamJoom brand.
+                            A familiar, Instamart‑grade experience—under the Hyper Market brand.
                         </h2>
                         <p className="text-xl text-slate-500 leading-relaxed">
-                            Customers get the speed and polish they expect from national apps, while JamJoom keeps the relationship, data, and margin.
+                            Customers get the speed and polish they expect from national apps, while Hyper Market keeps the relationship, data, and margin.
                         </p>
                     </div>
 
@@ -127,11 +127,11 @@ export const ProductTab: React.FC<ProductTabProps> = ({ onTabChange }) => {
                             {[
                                 {
                                     title: "Onboarding & location",
-                                    desc: "“Deliver to Kizhakkethala” with store auto‑selection and promise time, so customers instantly see which JamJoom branch will serve them."
+                                    desc: "“Deliver to Kizhakkethala” with store auto‑selection and promise time, so customers instantly see which Hyper Market branch will serve them."
                                 },
                                 {
                                     title: "Home & promotions",
-                                    desc: "Hero banner for “Today’s Fresh Picks”, category chips for Groceries, Bakery, Pharmacy and Electronics, and clear space for JamJoom and partner brand offers."
+                                    desc: "Hero banner for “Today’s Fresh Picks”, category chips for Groceries, Bakery, Pharmacy and Electronics, and clear space for Hyper Market and partner brand offers."
                                 },
                                 {
                                     title: "Categories & product cards",
@@ -180,7 +180,7 @@ export const ProductTab: React.FC<ProductTabProps> = ({ onTabChange }) => {
                             color: "text-blue-600",
                             bg: "bg-blue-50",
                             title: "Live catalog from your POS",
-                            desc: "JamJoom Quick plugs directly into your existing billing software, so product names, barcodes, prices and stock levels stay in sync in real‑time across all stores.",
+                            desc: "Q Comm plugs directly into your existing billing software, so product names, barcodes, prices and stock levels stay in sync in real‑time across all stores.",
                             sub: "No duplicate catalog management, no manual uploads when MRP or offers change."
                         },
                         {
@@ -188,7 +188,7 @@ export const ProductTab: React.FC<ProductTabProps> = ({ onTabChange }) => {
                             color: "text-green-600",
                             bg: "bg-green-50",
                             title: "One app, many stores",
-                            desc: "Customers see a single JamJoom experience, while the platform routes each order to the closest store with stock available and capacity to fulfil within the SLA.",
+                            desc: "Customers see a single Hyper Market experience, while the platform routes each order to the closest store with stock available and capacity to fulfil within the SLA.",
                             sub: "Every branch runs its own inventory and delivery radius, but management sees it as one unified channel."
                         },
                         {
@@ -197,14 +197,14 @@ export const ProductTab: React.FC<ProductTabProps> = ({ onTabChange }) => {
                             bg: "bg-orange-50",
                             title: "Operations‑ready store app",
                             desc: "Store staff get a simple workflow: pick list by aisle, substitution suggestions, pack confirmation and handover to rider—all logged against the order.",
-                            sub: "This turns each JamJoom location into a mini fulfilment hub without disrupting how billing works today."
+                            sub: "This turns each Hyper Market location into a mini fulfilment hub without disrupting how billing works today."
                         },
                         {
                             icon: Zap,
                             color: "text-purple-600",
                             bg: "bg-purple-50",
                             title: "Promotional space",
-                            desc: "Hero banners, category spotlights and “sponsored” product rows give JamJoom and partner brands prime digital shelf space—mirroring gondolas and end‑caps in your physical stores.",
+                            desc: "Hero banners, category spotlights and “sponsored” product rows give Hyper Market and partner brands prime digital shelf space—mirroring gondolas and end‑caps in your physical stores.",
                             sub: "Run chain‑wide offers or store‑specific campaigns with just a few clicks."
                         }
                     ].map((card, i) => (
@@ -224,7 +224,7 @@ export const ProductTab: React.FC<ProductTabProps> = ({ onTabChange }) => {
                 </div>
 
                 <p className="mt-12 text-center text-slate-400 text-sm">
-                    Everything is theme‑matched to JamJoom’s colours and photography.
+                    Everything is theme‑matched to Hyper Market’s colours and photography.
                 </p>
             </section>
 
@@ -310,23 +310,7 @@ export const ProductTab: React.FC<ProductTabProps> = ({ onTabChange }) => {
                 </div>
             </section>
 
-            {/* 5. Footer CTA */}
-            <section className="py-20 bg-white border-t border-slate-100 text-center">
-                <div className="max-w-3xl mx-auto px-6">
-                    <h2 className="text-3xl font-bold text-slate-900 mb-8">
-                        Ready to see the business impact?
-                    </h2>
-                    <button
-                        onClick={() => onTabChange?.('2')}
-                        className="inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white bg-slate-900 rounded-full hover:bg-slate-800 transition-all shadow-xl hover:shadow-2xl hover:-translate-y-1"
-                    >
-                        Next: Business Integration <ArrowRight className="ml-2 w-5 h-5" />
-                    </button>
-                    <p className="mt-6 text-slate-400 text-sm">
-                        or <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="text-slate-600 underline hover:text-slate-900">back to top</button>
-                    </p>
-                </div>
-            </section>
+
 
         </div>
     );

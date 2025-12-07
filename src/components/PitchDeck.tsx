@@ -12,7 +12,7 @@ const HeroSection = () => (
             <Rocket className="w-12 h-12 text-blue-600" />
         </div>
         <Title level={1} className="!mb-0 text-5xl font-extrabold text-slate-900 tracking-tight">
-            JamJoom Quick Commerce
+            Hyper Market Quick Commerce
         </Title>
         <Paragraph className="text-xl text-slate-600 max-w-2xl px-4">
             Revolutionizing B2B supply chains with lightning-fast delivery and AI-driven logistics.
@@ -58,7 +58,7 @@ const ProblemSection = () => (
 const SolutionSection = () => (
     <SectionContainer title="Our Solution" icon={Zap}>
         <Paragraph>
-            JamJoom provides a unified Quick Commerce platform connecting manufacturers directly to retailers.
+            Hyper Market provides a unified Quick Commerce platform connecting manufacturers directly to retailers.
             Our tech-first approach ensures 24-hour delivery, real-time tracking, and automated inventory management.
         </Paragraph>
         <div className="grid md:grid-cols-2 gap-6 mt-8">
@@ -181,8 +181,8 @@ const PitchDeck = () => {
             <Layout className="min-h-screen bg-slate-50">
                 <Header className="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-slate-200 px-4 md:px-8 flex items-center justify-between h-16">
                     <div className="text-xl font-bold bg-gradient-to-r from-blue-700 to-blue-500 bg-clip-text text-transparent flex items-center gap-2">
-                        <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center text-white font-bold text-lg">J</div>
-                        JamJoom
+                        <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center text-white font-bold text-lg">H</div>
+                        Hyper Market
                     </div>
                     <div className="hidden md:block">
                         {/* Can add extra header content here */}
@@ -205,7 +205,7 @@ const PitchDeck = () => {
                 </Content>
 
                 <Footer className="text-center text-slate-400 text-sm bg-transparent">
-                    © {new Date().getFullYear()} JamJoom Quick Commerce. Confidential.
+                    © {new Date().getFullYear()} Hyper Market Quick Commerce. Confidential.
                 </Footer>
             </Layout>
         </ConfigProvider>

@@ -30,7 +30,7 @@ export const WhyQuick2QCommTab: React.FC = () => {
 
                             <div className="bg-emerald-50 border-l-4 border-emerald-500 p-6 rounded-r-xl mt-6">
                                 <p className="text-emerald-800 font-medium text-lg italic">
-                                    "JamJoom’s core shopper in Malappuram is already buying online—just not yet from JamJoom."
+                                    "Hyper Market’s core shopper in Malappuram is already buying online—just not yet from Hyper Market."
                                 </p>
                             </div>
                         </div>
@@ -77,7 +77,7 @@ export const WhyQuick2QCommTab: React.FC = () => {
                         </div>
                         <h3 className="text-2xl font-bold mb-6 relative z-10">The Insight</h3>
                         <p className="text-slate-300 text-lg leading-relaxed italic relative z-10">
-                            "The JamJoom customer of the next decade is a digital‑native 25‑year‑old who expects groceries to be one tap away, not one bus ride away."
+                            "The Hyper Market customer of the next decade is a digital‑native 25‑year‑old who expects groceries to be one tap away, not one bus ride away."
                         </p>
                     </div>
                 </div>
@@ -112,7 +112,7 @@ export const WhyQuick2QCommTab: React.FC = () => {
                     <div className="bg-orange-50 border border-orange-200 rounded-xl p-6 flex items-start gap-4">
                         <AlertTriangle className="text-orange-600 flex-shrink-0 mt-1 w-6 h-6" />
                         <p className="text-orange-900 text-lg font-bold">
-                            In 12–18 months, quick commerce will be “how people buy groceries online” in Malappuram. If JamJoom is not there, someone else will be.
+                            In 12–18 months, quick commerce will be “how people buy groceries online” in Malappuram. If Hyper Market is not there, someone else will be.
                         </p>
                     </div>
                 </div>
@@ -134,7 +134,7 @@ export const WhyQuick2QCommTab: React.FC = () => {
                         <div className="absolute inset-0 bg-grid-white/[0.05] bg-[size:30px_30px]" />
                         <div className="relative z-10 max-w-3xl mx-auto">
                             <p className="text-2xl md:text-3xl font-serif italic text-white leading-relaxed">
-                                "If Malappuram's organised grocery moves to 10% online, the 'missing' share for JamJoom is not footfall—it’s margin leaking to apps that own the digital channel."
+                                "If Malappuram's organised grocery moves to 10% online, the 'missing' share for Hyper Market is not footfall—it’s margin leaking to apps that own the digital channel."
                             </p>
                         </div>
                     </div>
@@ -150,7 +150,7 @@ export const WhyQuick2QCommTab: React.FC = () => {
                         title={
                             <div className="flex items-center gap-3 text-emerald-800">
                                 <CheckCircle2 className="w-6 h-6" />
-                                <span className="text-xl font-bold">If JamJoom Enters Now</span>
+                                <span className="text-xl font-bold">If Hyper Market Enters Now</span>
                             </div>
                         }
                     >
@@ -177,14 +177,14 @@ export const WhyQuick2QCommTab: React.FC = () => {
                         title={
                             <div className="flex items-center gap-3 text-red-800">
                                 <AlertTriangle className="w-6 h-6" />
-                                <span className="text-xl font-bold">If JamJoom Waits</span>
+                                <span className="text-xl font-bold">If Hyper Market Waits</span>
                             </div>
                         }
                     >
                         <ul className="space-y-6">
                             <li className="bg-white p-5 rounded-xl shadow-sm border border-red-100">
                                 <div className="text-xs font-bold text-red-600 uppercase tracking-wider mb-2">Lost Ground</div>
-                                <div className="text-slate-700 leading-snug">External platforms capture 60–70% of the online pool first, leaving JamJoom to fight for <strong className="text-slate-900">15–20% share</strong>.</div>
+                                <div className="text-slate-700 leading-snug">External platforms capture 60–70% of the online pool first, leaving Hyper Market to fight for <strong className="text-slate-900">15–20% share</strong>.</div>
                             </li>
                             <li className="bg-white p-5 rounded-xl shadow-sm border border-red-100">
                                 <div className="text-xs font-bold text-red-600 uppercase tracking-wider mb-2">Margin Crunch</div>
@@ -200,13 +200,13 @@ export const WhyQuick2QCommTab: React.FC = () => {
                 </div>
                 <div className="mt-8 text-center max-w-3xl mx-auto">
                     <p className="text-slate-500 font-medium italic">
-                        "Every year JamJoom delays quick commerce, it effectively leaves 60–70% of the future online grocery profit in its catchment on the table for outside platforms."
+                        "Every year Hyper Market delays quick commerce, it effectively leaves 60–70% of the future online grocery profit in its catchment on the table for outside platforms."
                     </p>
                 </div>
             </Section>
 
             {/* Section 6: Closing */}
-            <Section title="Conclusion: Why JamJoom Quick?">
+            <Section title={<>Conclusion: Why <span className="text-primary">Q</span> Comm?</>}>
                 <div className="bg-slate-900 rounded-3xl p-8 lg:p-12 text-white shadow-2xl">
                     <div className="grid md:grid-cols-2 gap-12">
                         <ul className="space-y-8">
@@ -230,11 +230,9 @@ export const WhyQuick2QCommTab: React.FC = () => {
 
                         <div className="flex flex-col justify-center border-t md:border-t-0 md:border-l border-slate-700 pt-8 md:pt-0 md:pl-12">
                             <p className="text-xl md:text-2xl font-serif italic leading-relaxed text-slate-200 mb-8">
-                                "The question isn’t whether Malappuram will move to app‑based grocery—it already is. The real choice is simple: build JamJoom Quick now and own that shift, or watch other apps earn the margin on your customers."
+                                "The question isn’t whether Malappuram will move to app‑based grocery—it already is. The real choice is simple: build Q Comm now and own that shift, or watch other apps earn the margin on your customers."
                             </p>
-                            <button className="bg-emerald-500 hover:bg-emerald-600 text-white px-8 py-4 rounded-full font-bold text-lg transition-all shadow-lg hover:shadow-emerald-500/25 flex items-center justify-center gap-2 self-start group">
-                                Start The Transformation <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-                            </button>
+
                         </div>
                     </div>
                 </div>
