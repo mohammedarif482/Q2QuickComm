@@ -29,7 +29,7 @@ export const ForwardTab: React.FC = () => {
                 className="bg-slate-50 rounded-3xl my-8 py-16"
             >
                 <p className="text-center text-slate-600 max-w-3xl mx-auto mb-12 text-lg">
-                    We maintain a living roadmap based on what is working for leading quick‑commerce players, what customers in Kerala are asking for, and what Hyper Market’s stores need operationally.
+                    We maintain a living roadmap based on what is working for leading quick‑commerce players, what customers in tier 3 markets are asking for, and what Hyper Market's stores need operationally.
                 </p>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -85,7 +85,7 @@ export const ForwardTab: React.FC = () => {
                         </div>
                         <div>
                             <h3 className="text-xl font-bold text-slate-900 mb-2">Region‑specific behaviour</h3>
-                            <p className="text-slate-600">Support for Malayalam content, local payment preferences or regulatory requirements in Kerala tier‑3 markets.</p>
+                            <p className="text-slate-600">Support for Malayalam content, local payment preferences or regulatory requirements in tier‑3 markets.</p>
                         </div>
                     </div>
 
@@ -99,10 +99,6 @@ export const ForwardTab: React.FC = () => {
                         </div>
                     </div>
                 </div>
-
-                <p className="text-center mt-12 text-slate-500 italic max-w-2xl mx-auto bg-slate-50 py-3 px-6 rounded-full">
-                    Note: We’ll maintain a joint wishlist with Hyper Market leadership, rank items by impact vs effort, and slot agreed items into upcoming sprints.
-                </p>
             </Section>
 
             {/* Section 4 – Strategic expansion & gap‑finding */}
@@ -168,7 +164,7 @@ export const ForwardTab: React.FC = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-10">
                     {[
                         { title: "AI everywhere, not just in one feature", desc: "From smarter search and recommendations to demand forecasting and staff scheduling, the platform is built to let new AI models slot into individual services as they mature—without breaking store operations." },
-                        { title: "Open, API‑first integrations", desc: "Using an API‑centric approach makes it easier to connect to future services such as new payment options, national commerce networks, marketing tools or third‑party logistics providers as they become relevant for Kerala tier‑3 markets." },
+                        { title: "Open, API‑first integrations", desc: "Using an API‑centric approach makes it easier to connect to future services such as new payment options, national commerce networks, marketing tools or third‑party logistics providers as they become relevant for tier‑3 markets." },
                         { title: "Experimentation without risk", desc: "New technologies can be trialled in one or two Hyper Market stores or customer segments first, measured for real business impact, and only then scaled chain‑wide—so experimentation doesn’t jeopardise day‑to‑day business." },
                         { title: "Continuous learning loop", desc: "As quick commerce and digital grocery models keep evolving in India, the product roadmap stays informed by what is working in other markets, but always adapted to Hyper Market’s own data, customers and store formats." },
                     ].map((item, i) => (

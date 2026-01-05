@@ -30,7 +30,7 @@ export const WhyQuick2QCommTab: React.FC = () => {
 
                             <div className="bg-emerald-50 border-l-4 border-emerald-500 p-6 rounded-r-xl mt-6">
                                 <p className="text-emerald-800 font-medium text-lg italic">
-                                    "Hyper Market’s core shopper in Malappuram is already buying online—just not yet from Hyper Market."
+                                    "Hyper Market's core shopper in tier 3 is already buying online—just not yet from Hyper Market."
                                 </p>
                             </div>
                         </div>
@@ -112,7 +112,7 @@ export const WhyQuick2QCommTab: React.FC = () => {
                     <div className="bg-orange-50 border border-orange-200 rounded-xl p-6 flex items-start gap-4">
                         <AlertTriangle className="text-orange-600 flex-shrink-0 mt-1 w-6 h-6" />
                         <p className="text-orange-900 text-lg font-bold">
-                            In 12–18 months, quick commerce will be “how people buy groceries online” in Malappuram. If Hyper Market is not there, someone else will be.
+                            In 12–18 months, quick commerce will be "how people buy groceries online" in tier 3. If Hyper Market is not there, someone else will be.
                         </p>
                     </div>
                 </div>
@@ -134,7 +134,7 @@ export const WhyQuick2QCommTab: React.FC = () => {
                         <div className="absolute inset-0 bg-grid-white/[0.05] bg-[size:30px_30px]" />
                         <div className="relative z-10 max-w-3xl mx-auto">
                             <p className="text-2xl md:text-3xl font-serif italic text-white leading-relaxed">
-                                "If Malappuram's organised grocery moves to 10% online, the 'missing' share for Hyper Market is not footfall—it’s margin leaking to apps that own the digital channel."
+                                "If tier 3's organised grocery moves to 10% online, the 'missing' share for Hyper Market is not footfall—it's margin leaking to apps that own the digital channel."
                             </p>
                         </div>
                     </div>
@@ -157,7 +157,7 @@ export const WhyQuick2QCommTab: React.FC = () => {
                         <ul className="space-y-6">
                             <li className="bg-white p-5 rounded-xl shadow-sm border border-emerald-100">
                                 <div className="text-xs font-bold text-emerald-600 uppercase tracking-wider mb-2">Market Potential</div>
-                                <div className="text-slate-700 leading-snug">Assume Malappuram + catchment has ₹3,000–3,500 Cr annual grocery spend. A 10% shift means a <strong className="text-slate-900">₹300–350 Cr online pool</strong>.</div>
+                                <div className="text-slate-700 leading-snug">Assume tier 3 + catchment has ₹3,000–3,500 Cr annual grocery spend. A 10% shift means a <strong className="text-slate-900">₹300–350 Cr online pool</strong>.</div>
                             </li>
                             <li className="bg-white p-5 rounded-xl shadow-sm border border-emerald-100">
                                 <div className="text-xs font-bold text-emerald-600 uppercase tracking-wider mb-2">Likely Share</div>
@@ -230,7 +230,7 @@ export const WhyQuick2QCommTab: React.FC = () => {
 
                         <div className="flex flex-col justify-center border-t md:border-t-0 md:border-l border-slate-700 pt-8 md:pt-0 md:pl-12">
                             <p className="text-xl md:text-2xl font-serif italic leading-relaxed text-slate-200 mb-8">
-                                "The question isn’t whether Malappuram will move to app‑based grocery—it already is. The real choice is simple: build Q Comm now and own that shift, or watch other apps earn the margin on your customers."
+                                "The question isn't whether tier 3 will move to app‑based grocery—it already is. The real choice is simple: build Q Comm now and own that shift, or watch other apps earn the margin on your customers."
                             </p>
 
                         </div>
