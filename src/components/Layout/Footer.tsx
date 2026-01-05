@@ -4,7 +4,7 @@ import { Rocket, Mail, Phone, MapPin } from 'lucide-react';
 
 export const Footer: React.FC = () => {
     return (
-        <footer className="bg-secondary border-t border-white/10 pt-20 pb-10">
+        <footer className="bg-[#212121] border-t border-white/10 pt-20 pb-10">
             <div className="max-w-7xl mx-auto px-6">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-16">
                     <div className="col-span-1 md:col-span-2">
@@ -30,9 +30,8 @@ export const Footer: React.FC = () => {
 
 
 
-                    <div className="flex flex-col md:items-end justify-end h-full">
-                        <p className="text-slate-300 italic mb-4 text-right">From The Infinite Canvas Of</p>
-                        <img src="/MOC2.png" alt="MOC" className="h-20 w-auto" />
+                    <div className="flex flex-col items-end justify-end h-full">
+                        <img src="/MOC4.png" alt="MOC" className="h-20 w-auto object-contain" />
                     </div>
                 </div>
 

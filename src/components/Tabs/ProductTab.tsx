@@ -25,7 +25,7 @@ export const ProductTab: React.FC<ProductTabProps> = ({ onTabChange }) => {
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-12">
                         {[
-                            { value: "14 Days", label: "Go Live", color: "text-green-600", bg: "bg-white" },
+                            { value: "30 Days", label: "Go Live", color: "text-green-600", bg: "bg-white" },
                             { value: "30 Mins", label: "Delivery Time", color: "text-green-600", bg: "bg-white" },
                             { value: "300%", label: "Year 1 ROI", color: "text-green-600", bg: "bg-white" }
                         ].map((stat, i) => (

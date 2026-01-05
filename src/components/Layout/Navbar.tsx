@@ -54,7 +54,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activeTab, onTabChange }) => {
                         <button
                             key={item.key}
                             onClick={() => handleNavClick(item.key)}
-                            className={`text-sm font-medium transition-colors ${activeTab === item.key ? 'text-primary' : 'text-text-muted hover:text-primary'
+                            className={`text-sm font-medium transition-colors ${activeTab === item.key ? 'text-black' : 'text-text-muted hover:text-primary'
                                 }`}
                         >
                             {item.label}
@@ -99,7 +99,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activeTab, onTabChange }) => {
                         <button
                             key={item.key}
                             onClick={() => handleNavClick(item.key)}
-                            className={`text-left text-lg font-medium py-3 border-b border-slate-100 transition-colors ${activeTab === item.key ? 'text-primary' : 'text-text-muted'
+                            className={`text-left text-lg font-medium py-3 border-b border-slate-100 transition-colors ${activeTab === item.key ? 'text-black' : 'text-text-muted'
                                 }`}
                         >
                             {item.label}

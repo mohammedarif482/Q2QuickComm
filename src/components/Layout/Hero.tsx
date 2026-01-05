@@ -57,7 +57,7 @@ export const Hero: React.FC<HeroProps> = ({ onCtaClick }) => {
 
                     <div className="mt-20 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
                         {[
-                            { icon: Zap, label: 'Go Live', value: '14 Days' },
+                            { icon: Zap, label: 'Go Live', value: '30 Days' },
                             { icon: Clock, label: 'Delivery Time', value: '30 Mins' },
                             { icon: TrendingUp, label: 'Year 1 ROI', value: '300%' },
                         ].map((stat, i) => (
