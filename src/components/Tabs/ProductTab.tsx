@@ -1,5 +1,5 @@
 import React from 'react';
-import { RefreshCw, Zap, ShoppingBag, Store, Smartphone, ArrowRight, CheckCircle2 } from 'lucide-react';
+import { RefreshCw, Zap, ShoppingBag, Store, ArrowRight, CheckCircle2 } from 'lucide-react';
 
 interface ProductTabProps {
     onTabChange?: (key: string) => void;
@@ -68,31 +68,15 @@ export const ProductTab: React.FC<ProductTabProps> = ({ onTabChange }) => {
                                 </li>
                             ))}
                         </ul>
-
-                        <div className="pt-6 flex flex-col sm:flex-row gap-4 items-start sm:items-center">
-                            <button className="inline-flex items-center justify-center px-8 py-4 text-base font-semibold text-white bg-green-600 rounded-full hover:bg-green-700 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-200">
-                                See how the product works
-                            </button>
-                            <button
-                                onClick={() => onTabChange?.('2')}
-                                className="inline-flex items-center gap-2 px-6 py-4 text-base font-medium text-slate-500 hover:text-green-600 transition-colors group"
-                            >
-                                Or jump to Business Integration <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                            </button>
-                        </div>
                     </div>
 
-                    <div className="relative h-[500px] md:h-[600px] bg-slate-50 rounded-[2.5rem] flex items-center justify-center border border-slate-100 overflow-hidden shadow-2xl shadow-slate-200/50">
-                        {/* Decorative background elements */}
-                        <div className="absolute inset-0 bg-gradient-to-tr from-slate-50 to-white opacity-50" />
-                        <div className="absolute -right-20 -top-20 w-80 h-80 bg-green-100/50 rounded-full blur-3xl mix-blend-multiply" />
-                        <div className="absolute -left-20 -bottom-20 w-80 h-80 bg-blue-100/50 rounded-full blur-3xl mix-blend-multiply" />
-
-                        {/* Phone Mockup Placeholder */}
-                        <div className="relative z-10 flex flex-col items-center gap-4 text-slate-400">
-                            <Smartphone className="w-20 h-20 text-slate-300" strokeWidth={1} />
-                            <span className="text-sm font-medium tracking-widest uppercase">App Experience Preview</span>
-                        </div>
+                    <div className="relative h-[500px] md:h-[600px] rounded-[2.5rem] border border-slate-100 overflow-hidden shadow-2xl shadow-slate-200/50">
+                        {/* App Experience Preview Image */}
+                        <img
+                            src="/Frame 348.png"
+                            alt="App Experience Preview showing Home, Product, Details, and Checkout screens"
+                            className="w-full h-full object-cover"
+                        />
                     </div>
                 </div>
             </section>
@@ -112,14 +96,26 @@ export const ProductTab: React.FC<ProductTabProps> = ({ onTabChange }) => {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
                         <div className="relative h-[400px] flex items-center justify-center perspective-1000">
                             {/* Stacked Phones */}
-                            <div className="absolute left-10 md:left-20 top-10 w-48 h-80 bg-white rounded-3xl border-4 border-slate-100 shadow-xl transform -rotate-6 z-10 flex items-center justify-center text-slate-300">
-                                <span className="text-xs font-bold uppercase tracking-wider">Onboarding</span>
+                            <div className="absolute left-10 md:left-20 top-10 w-48 h-80 bg-white rounded-3xl border-4 border-slate-100 shadow-xl transform -rotate-6 z-10 overflow-hidden">
+                                <img
+                                    src="/Product.png"
+                                    alt="Product screen"
+                                    className="w-full h-full object-cover"
+                                />
                             </div>
-                            <div className="absolute z-20 w-52 h-96 bg-white rounded-3xl border-4 border-slate-900 shadow-2xl transform rotate-0 flex items-center justify-center">
-                                <span className="text-sm font-bold uppercase tracking-wider text-slate-900">Home Screen</span>
+                            <div className="absolute z-20 w-52 h-96 bg-white rounded-3xl border-4 border-slate-900 shadow-2xl transform rotate-0 overflow-hidden">
+                                <img
+                                    src="/Home.png"
+                                    alt="Home screen"
+                                    className="w-full h-full object-cover"
+                                />
                             </div>
-                            <div className="absolute right-10 md:right-20 top-10 w-48 h-80 bg-slate-100 rounded-3xl border-4 border-white shadow-lg transform rotate-6 z-0 flex items-center justify-center text-slate-400">
-                                <span className="text-xs font-bold uppercase tracking-wider">Checkout</span>
+                            <div className="absolute right-10 md:right-20 top-10 w-48 h-80 bg-slate-100 rounded-3xl border-4 border-white shadow-lg transform rotate-6 z-0 overflow-hidden">
+                                <img
+                                    src="/Checkout.png"
+                                    alt="Checkout screen"
+                                    className="w-full h-full object-cover"
+                                />
                             </div>
                         </div>
 
