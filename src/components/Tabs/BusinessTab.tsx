@@ -231,12 +231,20 @@ export const BusinessTab: React.FC<BusinessTabProps> = ({ onTabChange }) => {
                                         desc: "Riders see nearby orders from a specific Hyper Market store, with pickup time, drop location, and pay per drop."
                                     },
                                     {
-                                        title: "Navigation & proof of delivery",
-                                        desc: "One‑tap maps, customer call, and OTP/photo confirmation at drop."
+                                        title: "Navigation & delivery tracking",
+                                        desc: "One‑tap maps, customer call, and real-time location tracking until drop-off."
+                                    },
+                                    {
+                                        title: "Invoice generation at delivery",
+                                        desc: "Rider generates invoice/bill on the spot using the mobile app when customer receives the order. Supports both QComm app payments and Cash on Delivery (COD)."
+                                    },
+                                    {
+                                        title: "Payment collection & confirmation",
+                                        desc: "For COD orders, rider collects cash and confirms in-app. For prepaid orders, rider marks delivery complete. Invoice auto-syncs to store POS for accounting."
                                     },
                                     {
                                         title: "Flexible sourcing",
-                                        desc: "Works with Hyper Market’s own riders, third‑party fleet partners, or a mix."
+                                        desc: "Works with Hyper Market's own riders, third‑party fleet partners, or a mix."
                                     },
                                     {
                                         title: "Basic earnings view",
@@ -280,7 +288,10 @@ export const BusinessTab: React.FC<BusinessTabProps> = ({ onTabChange }) => {
                                         <div className="h-4 w-3/4 bg-gray-100 rounded"></div>
                                         <div className="h-3 w-1/2 bg-gray-100 rounded"></div>
                                         <div className="mt-4 bg-green-600 text-white rounded-lg py-2 text-center text-sm font-bold">
-                                            Accept Order
+                                            Mark Delivered
+                                        </div>
+                                        <div className="mt-2 bg-blue-600 text-white rounded-lg py-2 text-center text-sm font-bold">
+                                            Generate Invoice
                                         </div>
                                     </div>
                                     {/* Earnings */}
@@ -298,11 +309,11 @@ export const BusinessTab: React.FC<BusinessTabProps> = ({ onTabChange }) => {
             </Section>
 
             {/* 5. Billing Software Integration */}
-            <Section title="Your POS stays the brain" subtitle="Mobile checkout becomes just another counter.">
+            <Section title="Your POS stays the brain" subtitle="Invoice generated at delivery, synced to POS instantly.">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     <div>
                         <p className="text-lg text-gray-600 mb-6">
-                            Every Q Comm order ends its journey inside your existing billing software, just like a walk‑in customer—only under a separate “online” or “quick commerce” counter code.
+                            Every Q Comm order is billed at the point of delivery. When the rider hands over the order to the customer, the invoice is generated on the rider's mobile app and immediately synced to your existing billing software—just like a walk‑in customer checkout, only under a separate "online" or "quick commerce" counter code.
                         </p>
                         <p className="text-lg text-gray-600 mb-8">
                             That means stock, sales, discounts and taxes remain consistent across offline and online channels, with no extra reconciliation at month‑end.
@@ -310,9 +321,11 @@ export const BusinessTab: React.FC<BusinessTabProps> = ({ onTabChange }) => {
 
                         <div className="space-y-4 bg-blue-50 p-6 rounded-2xl border border-blue-100">
                             {[
-                                "Each confirmed app order is pushed into POS as a bill with items, prices, tax and payment mode.",
+                                "Rider marks delivery complete and generates invoice/bill on mobile app at customer's doorstep.",
+                                "Invoice instantly syncs to POS with all items, prices, tax, payment mode (COD or online prepaid).",
+                                "For COD orders, rider collects cash; for prepaid, payment already captured via QComm app.",
                                 "Online‑specific charges (delivery fee, promo codes) are handled as separate line items or tender types.",
-                                "Cashless payments settle to your existing payment gateways."
+                                "All transactions settle to your existing payment gateways and accounting system."
                             ].map((text, i) => (
                                 <div key={i} className="flex gap-3">
                                     <Check className="w-5 h-5 text-blue-600 shrink-0" />
@@ -321,20 +334,20 @@ export const BusinessTab: React.FC<BusinessTabProps> = ({ onTabChange }) => {
                             ))}
                         </div>
                         <p className="mt-4 font-semibold text-blue-800">
-                            Result: For finance, Q Comm is “just another billing counter”.
+                            Result: For finance, Q Comm is "just another billing counter" with invoice generated at delivery and auto-synced to POS.
                         </p>
                     </div>
 
                     <div className="bg-white p-6 rounded-2xl border border-gray-200 shadow-lg">
                         <div className="flex items-center justify-between mb-8">
                             <div className="text-center w-1/4">
-                                <div className="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-2 text-2xl">📱</div>
-                                <div className="text-xs font-bold">App Order</div>
+                                <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-2 text-2xl">🚚</div>
+                                <div className="text-xs font-bold">Delivery Invoice</div>
                             </div>
                             <ArrowRight className="text-gray-300 w-6 h-6" />
                             <div className="text-center w-1/4">
                                 <div className="w-12 h-12 bg-yellow-100 rounded-full flex items-center justify-center mx-auto mb-2 text-2xl">⚡</div>
-                                <div className="text-xs font-bold">Online Counter</div>
+                                <div className="text-xs font-bold">Rider App Sync</div>
                             </div>
                             <ArrowRight className="text-gray-300 w-6 h-6" />
                             <div className="text-center w-1/4">
@@ -349,13 +362,17 @@ export const BusinessTab: React.FC<BusinessTabProps> = ({ onTabChange }) => {
                                 <span>{new Date().toLocaleDateString()}</span>
                             </div>
                             <div className="space-y-1 mb-2">
-                                <div className="flex justify-between"><span>Milk 1L</span><span>1</span></div>
-                                <div className="flex justify-between"><span>Bread</span><span>1</span></div>
-                                <div className="flex justify-between text-blue-600"><span>Delivery Fee</span><span>1</span></div>
+                                <div className="flex justify-between"><span>Milk 1L</span><span>₹65</span></div>
+                                <div className="flex justify-between"><span>Bread</span><span>₹60</span></div>
+                                <div className="flex justify-between text-blue-600"><span>Delivery Fee</span><span>₹20</span></div>
                             </div>
                             <div className="flex justify-between font-bold pt-2 border-t border-gray-200">
                                 <span>Total</span>
                                 <span>₹145.00</span>
+                            </div>
+                            <div className="flex justify-between text-green-600 pt-2 border-t border-gray-200 mt-2">
+                                <span>Payment Mode</span>
+                                <span>COD / Online Prepaid</span>
                             </div>
                         </div>
                     </div>
