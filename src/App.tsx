@@ -5,9 +5,6 @@ import { Footer } from './components/Layout/Footer';
 import { ProductTab } from './components/Tabs/ProductTab';
 import { BusinessTab } from './components/Tabs/BusinessTab';
 import { WhyQuick2QCommTab } from './components/Tabs/WhyQuick2QCommTab';
-import { CompetitiveMoatTab } from './components/Tabs/CompetitiveMoatTab';
-import { UnitEconomicsTab } from './components/Tabs/UnitEconomicsTab';
-import { KPIsTab } from './components/Tabs/KPIsTab';
 import { ForwardTab } from './components/Tabs/ForwardTab';
 
 const App: React.FC = () => {
