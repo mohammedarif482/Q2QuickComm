@@ -51,10 +51,10 @@ export const KPIsTab: React.FC = () => {
                         </thead>
                         <tbody className="divide-y divide-slate-200">
                             {[
-                                { name: "Koramangala Hub", orders: 450, sla: "99.2%", rating: 4.9 },
-                                { name: "Indiranagar Central", orders: 412, sla: "98.5%", rating: 4.8 },
-                                { name: "HSR Layout", orders: 389, sla: "97.8%", rating: 4.7 },
-                                { name: "Whitefield Node", orders: 350, sla: "96.5%", rating: 4.6 },
+                                { name: "Downtown Central", orders: 450, sla: "99.2%", rating: 4.9 },
+                                { name: "Westside Hub", orders: 412, sla: "98.5%", rating: 4.8 },
+                                { name: "Lakeside Mall", orders: 389, sla: "97.8%", rating: 4.7 },
+                                { name: "Station Road", orders: 350, sla: "96.5%", rating: 4.6 },
                             ].map((store, i) => (
                                 <tr key={i} className="hover:bg-slate-50 transition-colors">
                                     <td className="p-4">

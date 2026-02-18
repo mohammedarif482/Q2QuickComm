@@ -28,7 +28,7 @@ interface BusinessTabProps {
 export const BusinessTab: React.FC<BusinessTabProps> = ({ onTabChange }) => {
     return (
         <div className="space-y-0">
-            {/* 1. Hero Section - How it fits into Hyper Market */}
+            {/* 1. Hero Section - How it fits into your business */}
             <Section className="!py-12 bg-white">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     <motion.div
@@ -40,16 +40,16 @@ export const BusinessTab: React.FC<BusinessTabProps> = ({ onTabChange }) => {
                             Business Integration
                         </span>
                         <h1 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900 leading-tight">
-                            Drop‑in quick commerce, not a rip‑and‑replace project.
+                            Drop-in quick commerce, not a rip-and-replace project.
                         </h1>
                         <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-                            Q Comm sits on top of your existing billing and store operations. The app talks to your POS, your staff handle fulfilment, and a light partner app manages riders—all stitched together by one central dashboard.
+                            Q Comm sits on top of your existing billing and store operations. The app talks to your POS, your staff handle fulfilment, and a light partner app manages riders. All stitched together by one central dashboard.
                         </p>
 
                         <div className="space-y-4">
                             {[
                                 "Uses your current billing and inventory system as the single source of truth.",
-                                "Adds a thin operations layer for picking, packing and delivery—not a new ERP.",
+                                "Adds a thin operations layer for picking, packing and delivery. Not a new ERP.",
                                 "Starts with simple web APIs and scales into deeper integrations as volume grows."
                             ].map((text, i) => (
                                 <div key={i} className="flex items-start gap-3">
@@ -118,7 +118,7 @@ export const BusinessTab: React.FC<BusinessTabProps> = ({ onTabChange }) => {
                                 To get Q Comm off the ground, we start with a simple integration: a daily product feed from your billing system (name, barcode, price, stock) and an image layer powered by a custom search API.
                             </p>
                             <p className="text-lg text-gray-600 mb-8">
-                                Most FMCG and grocery SKUs already have high‑quality images on the web, so 70–80% of the catalog can be visually complete in days, not months.
+                                Most FMCG and grocery SKUs already have high-quality images on the web, so 70-80% of the catalog can be visually complete in days, not months.
                             </p>
 
                             <div className="space-y-3 mb-8">
@@ -132,12 +132,12 @@ export const BusinessTab: React.FC<BusinessTabProps> = ({ onTabChange }) => {
                                 </div>
                                 <div className="flex items-center gap-3 text-gray-700">
                                     <div className="w-2 h-2 rounded-full bg-green-500"></div>
-                                    In‑store staff can fix edge cases manually over time.
+                                    In-store staff can fix edge cases manually over time.
                                 </div>
                             </div>
 
                             <p className="text-sm text-gray-500 italic border-l-4 border-green-200 pl-4">
-                                This “easy start” path gives Hyper Market a polished digital shelf quickly, while we prepare deeper, real‑time integrations in the background.
+                                This "easy start" path gives you a polished digital shelf quickly, while we prepare deeper, real-time integrations in the background.
                             </p>
                         </div>
 
@@ -175,13 +175,13 @@ export const BusinessTab: React.FC<BusinessTabProps> = ({ onTabChange }) => {
                     {[
                         {
                             title: "Online order console",
-                            desc: "A tablet or desktop view at each store that shows new quick‑commerce orders, priority, and promised time.",
+                            desc: "A tablet or desktop view at each store that shows new quick-commerce orders, priority, and promised time.",
                             icon: LayoutDashboard,
                             color: "bg-blue-50 text-blue-600"
                         },
                         {
                             title: "Picker workflow",
-                            desc: "A simple mobile UI for pickers with aisle‑wise pick lists, quantity checks and substitution suggestions.",
+                            desc: "A simple mobile UI for pickers with aisle-wise pick lists, quantity checks and substitution suggestions.",
                             icon: Check,
                             color: "bg-green-50 text-green-600"
                         },
@@ -209,7 +209,7 @@ export const BusinessTab: React.FC<BusinessTabProps> = ({ onTabChange }) => {
                 </div>
                 <div className="mt-8 text-center">
                     <span className="inline-block bg-gray-100 text-gray-700 px-4 py-2 rounded-lg text-sm font-medium">
-                        Footnote: No new ERP, no duplicate stock ledger—your existing POS remains the system of record.
+                        Footnote: No new ERP, no duplicate stock ledger. Your existing POS remains the system of record.
                     </span>
                 </div>
             </Section>
@@ -228,11 +228,11 @@ export const BusinessTab: React.FC<BusinessTabProps> = ({ onTabChange }) => {
                                 {[
                                     {
                                         title: "Order queue by store",
-                                        desc: "Riders see nearby orders from a specific Hyper Market store, with pickup time, drop location, and pay per drop."
+                                        desc: "Riders see nearby orders from a specific store, with pickup time, drop location, and pay per drop."
                                     },
                                     {
                                         title: "Navigation & delivery tracking",
-                                        desc: "One‑tap maps, customer call, and real-time location tracking until drop-off."
+                                        desc: "One-tap maps, customer call, and real-time location tracking until drop-off."
                                     },
                                     {
                                         title: "Invoice generation at delivery",
@@ -244,7 +244,7 @@ export const BusinessTab: React.FC<BusinessTabProps> = ({ onTabChange }) => {
                                     },
                                     {
                                         title: "Flexible sourcing",
-                                        desc: "Works with Hyper Market's own riders, third‑party fleet partners, or a mix."
+                                        desc: "Works with your own riders, third-party fleet partners, or a mix."
                                     },
                                     {
                                         title: "Basic earnings view",
@@ -313,10 +313,10 @@ export const BusinessTab: React.FC<BusinessTabProps> = ({ onTabChange }) => {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     <div>
                         <p className="text-lg text-gray-600 mb-6">
-                            Every Q Comm order is billed at the point of delivery. When the rider hands over the order to the customer, the invoice is generated on the rider's mobile app and immediately synced to your existing billing software—just like a walk‑in customer checkout, only under a separate "online" or "quick commerce" counter code.
+                            Every Q Comm order is billed at the point of delivery. When the rider hands over the order to the customer, the invoice is generated on the rider's mobile app and immediately synced to your existing billing software. Just like a walk-in customer checkout, only under a separate "online" or "quick commerce" counter code.
                         </p>
                         <p className="text-lg text-gray-600 mb-8">
-                            That means stock, sales, discounts and taxes remain consistent across offline and online channels, with no extra reconciliation at month‑end.
+                            That means stock, sales, discounts and taxes remain consistent across offline and online channels, with no extra reconciliation at month-end.
                         </p>
 
                         <div className="space-y-4 bg-blue-50 p-6 rounded-2xl border border-blue-100">
@@ -324,7 +324,7 @@ export const BusinessTab: React.FC<BusinessTabProps> = ({ onTabChange }) => {
                                 "Rider marks delivery complete and generates invoice/bill on mobile app at customer's doorstep.",
                                 "Invoice instantly syncs to POS with all items, prices, tax, payment mode (COD or online prepaid).",
                                 "For COD orders, rider collects cash; for prepaid, payment already captured via QComm app.",
-                                "Online‑specific charges (delivery fee, promo codes) are handled as separate line items or tender types.",
+                                "Online-specific charges (delivery fee, promo codes) are handled as separate line items or tender types.",
                                 "All transactions settle to your existing payment gateways and accounting system."
                             ].map((text, i) => (
                                 <div key={i} className="flex gap-3">
@@ -553,7 +553,7 @@ export const BusinessTab: React.FC<BusinessTabProps> = ({ onTabChange }) => {
 
                 <div className="mt-16 text-center border-t border-gray-800 pt-8">
                     <p className="text-gray-400 mb-6 max-w-2xl mx-auto">
-                        This integration layer is designed to be thin, modular and reversible—start with the Custom Search + POS feed, then deepen integrations only as quick‑commerce volume and confidence grow.
+                        This integration layer is designed to be thin, modular and reversible. Start with the Custom Search + POS feed, then deepen integrations only as quick-commerce volume and confidence grow.
                     </p>
 
                 </div>

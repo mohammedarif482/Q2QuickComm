@@ -25,19 +25,19 @@ export const Hero: React.FC<HeroProps> = ({ onCtaClick }) => {
                 >
                     <div className="pill-badge mb-8">
                         <span className="flex h-2 w-2 rounded-full bg-primary animate-pulse"></span>
-                        <span className="text-sm font-medium">Quick Commerce Revolution</span>
+                        <span className="text-sm font-medium">Your customers are already ordering online. Just not from you.</span>
                     </div>
 
                     <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6 text-text-main">
-                        Turn Your Stores Into <br />
+                        Turn Your Hypermarket Into a <br />
                         <span className="text-primary">
-                            Quick Commerce Hubs
+                            30-Minute Delivery Machine
                         </span>
                     </h1>
 
                     <p className="text-xl md:text-2xl text-text-muted max-w-3xl mx-auto mb-10 leading-relaxed">
-                        Enable <span className="text-primary font-semibold">30-min delivery</span> using your existing infrastructure.
-                        Generate <span className="text-text-main font-bold">₹9M profit</span> in Year 1.
+                        Every month you wait, Zepto and Blinkit train your customers to buy from them.
+                        Q Comm lets you fight back with <span className="text-primary font-semibold">your stores, your brand, your margins</span>.
                     </p>
 
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -57,9 +57,9 @@ export const Hero: React.FC<HeroProps> = ({ onCtaClick }) => {
 
                     <div className="mt-20 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
                         {[
-                            { icon: Zap, label: 'Go Live', value: '30 Days' },
-                            { icon: Clock, label: 'Delivery Time', value: '30 Mins' },
-                            { icon: TrendingUp, label: 'Year 1 ROI', value: '300%' },
+                            { icon: Zap, label: 'Go Live In', value: '30 Days' },
+                            { icon: Clock, label: 'Delivery', value: '30 Mins' },
+                            { icon: TrendingUp, label: 'Your Margins', value: '100%' },
                         ].map((stat, i) => (
                             <motion.div
                                 key={i}

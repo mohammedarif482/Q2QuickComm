@@ -14,23 +14,23 @@ export const WhyQuick2QCommTab: React.FC = () => {
     return (
         <div className="space-y-8 animate-fadeIn pb-12">
             {/* Section 1: Transition */}
-            <Section title="Transition: How Tier‑3 Shoppers Are Changing" subtitle="Tier‑3 customers now shop online like metros—just with fewer options.">
+            <Section title="Transition: How Tier-2/3 Shoppers Are Changing" subtitle="Tier-2/3 customers now shop online like metros, just with fewer options.">
                 <div className="bg-white rounded-3xl p-8 border border-slate-100 shadow-sm relative overflow-hidden group hover:shadow-md transition-all duration-300">
                     <div className="lg:flex gap-12 items-start">
                         <div className="flex-1 space-y-6 text-slate-600 leading-relaxed text-lg">
                             <p>
-                                Since 2020, about <strong className="text-slate-900">60% of new Indian online shoppers</strong> have come from tier‑3 and smaller cities, not metros.
+                                Since 2020, about <strong className="text-slate-900">60% of new Indian online shoppers</strong> have come from tier-2/3 and smaller cities, not metros.
                             </p>
                             <p>
-                                Tier‑2/3 locations already drive 60–65% of India’s ecommerce demand, and tier‑3 alone contributed nearly half of festive online orders in recent sales.
+                                Tier-2/3 locations already drive 60-65% of India's ecommerce demand, and tier-3 alone contributed nearly half of festive online orders in recent sales.
                             </p>
                             <p>
-                                Grocery and daily‑use categories are expected to contribute around 70% of incremental online growth, with penetration forecast to grow <strong className="text-slate-900">2–4× from current levels</strong> over the next few years.
+                                Grocery and daily-use categories are expected to contribute around 70% of incremental online growth, with penetration forecast to grow <strong className="text-slate-900">2-4x from current levels</strong> over the next few years.
                             </p>
 
                             <div className="bg-emerald-50 border-l-4 border-emerald-500 p-6 rounded-r-xl mt-6">
                                 <p className="text-emerald-800 font-medium text-lg italic">
-                                    "Hyper Market's core shopper in tier 3 is already buying online—just not yet from Hyper Market."
+                                    "Your core shopper is already buying online. Just not from you yet."
                                 </p>
                             </div>
                         </div>
@@ -46,7 +46,7 @@ export const WhyQuick2QCommTab: React.FC = () => {
             </Section>
 
             {/* Section 2: Demographic Drivers */}
-            <Section title="Demographic Drivers" subtitle="Younger, busier, more digital—that’s who is driving quick commerce in tier‑3.">
+            <Section title="Demographic Drivers" subtitle="Younger, busier, more digital. That is who is driving quick commerce in tier-2/3.">
                 <div className="grid md:grid-cols-2 gap-8">
                     <div className="bg-white rounded-3xl p-8 border border-slate-100 shadow-sm space-y-6">
                         <div className="flex items-center gap-4 mb-2">
@@ -58,15 +58,15 @@ export const WhyQuick2QCommTab: React.FC = () => {
                         <ul className="space-y-4 text-slate-600 leading-relaxed">
                             <li className="flex gap-3">
                                 <span className="mt-2 w-1.5 h-1.5 rounded-full bg-blue-500 flex-shrink-0" />
-                                <span>Studies show that <strong>18–35 year‑olds</strong> are the most active segment, valuing convenience and time savings over small price differences.</span>
+                                <span>Studies show that <strong>18-35 year-olds</strong> are the most active segment, valuing convenience and time savings over small price differences.</span>
                             </li>
                             <li className="flex gap-3">
                                 <span className="mt-2 w-1.5 h-1.5 rounded-full bg-blue-500 flex-shrink-0" />
-                                <span>Tier‑2/3 India has seen a <strong>50–70% surge</strong> in digital payments, with UPI as the default for daily spending.</span>
+                                <span>Tier-2/3 India has seen a <strong>50-70% surge</strong> in digital payments, with UPI as the default for daily spending.</span>
                             </li>
                             <li className="flex gap-3">
                                 <span className="mt-2 w-1.5 h-1.5 rounded-full bg-blue-500 flex-shrink-0" />
-                                <span>Rising dual‑income households mean more demand for "I’ll order it on my way home" behaviour instead of weekend stock‑up trips.</span>
+                                <span>Rising dual-income households mean more demand for "I'll order it on my way home" behaviour instead of weekend stock-up trips.</span>
                             </li>
                         </ul>
                     </div>
@@ -77,14 +77,14 @@ export const WhyQuick2QCommTab: React.FC = () => {
                         </div>
                         <h3 className="text-2xl font-bold mb-6 relative z-10">The Insight</h3>
                         <p className="text-slate-300 text-lg leading-relaxed italic relative z-10">
-                            "The Hyper Market customer of the next decade is a digital‑native 25‑year‑old who expects groceries to be one tap away, not one bus ride away."
+                            "Your customer of the next decade is a digital-native 25-year-old who expects groceries to be one tap away, not one bus ride away."
                         </p>
                     </div>
                 </div>
             </Section>
 
             {/* Section 3: The Decision Window */}
-            <Section title="Do Now or Die: The Decision Window" subtitle="Quick commerce is no longer 'nice to have'—it’s becoming the default grocery journey.">
+            <Section title="Do Now or Die: The Decision Window" subtitle="Quick commerce is no longer 'nice to have'. It is becoming the default grocery journey.">
                 <div className="bg-white rounded-3xl p-8 border border-slate-100 shadow-sm">
                     <div className="grid lg:grid-cols-3 gap-8 mb-8">
                         <div className="p-6 bg-slate-50 rounded-2xl">
@@ -105,28 +105,28 @@ export const WhyQuick2QCommTab: React.FC = () => {
                     </div>
 
                     <div className="space-y-4 text-slate-600 mb-8 max-w-4xl">
-                        <p>Quick commerce has grown from roughly USD 1.5 billion in 2022 to USD 5–7 billion by 2024, and is expected to cross USD 9–11 billion before 2030 in India.</p>
-                        <p>Recent industry playbooks estimate that nearly two‑thirds of India’s online grocery orders now happen via quick‑commerce platforms, with smaller cities growing at 8–9% annually.</p>
+                        <p>Quick commerce has grown from roughly USD 1.5 billion in 2022 to USD 5-7 billion by 2024, and is expected to cross USD 9-11 billion before 2030 in India.</p>
+                        <p>Recent industry playbooks estimate that nearly two-thirds of India's online grocery orders now happen via quick-commerce platforms, with smaller cities growing at 8-9% annually.</p>
                     </div>
 
                     <div className="bg-orange-50 border border-orange-200 rounded-xl p-6 flex items-start gap-4">
                         <AlertTriangle className="text-orange-600 flex-shrink-0 mt-1 w-6 h-6" />
                         <p className="text-orange-900 text-lg font-bold">
-                            In 12–18 months, quick commerce will be "how people buy groceries online" in tier 3. If Hyper Market is not there, someone else will be.
+                            In 12-18 months, quick commerce will be "how people buy groceries online" in tier-2/3 cities. If you are not there, someone else will be.
                         </p>
                     </div>
                 </div>
             </Section>
 
             {/* Section 4: Chunk Distribution */}
-            <Section title="Chunk Distribution: Offline vs Online Share" subtitle="Offline will stay big—but the most profitable chunk is shifting online.">
+            <Section title="Chunk Distribution: Offline vs Online Share" subtitle="Offline will stay big, but the most profitable chunk is shifting online.">
                 <div className="bg-white rounded-3xl p-8 border border-slate-100 shadow-sm space-y-6">
                     <div className="lg:w-3/4 space-y-6">
                         <p className="text-slate-600 leading-relaxed">
-                            E‑grocery is projected to reach around USD 7–11 billion by 2029, still only a few percent of India’s total grocery market—but almost all incremental organised growth comes from this slice.
+                            E-grocery is projected to reach around USD 7-11 billion by 2029, still only a few percent of India's total grocery market. But almost all incremental organised growth comes from this slice.
                         </p>
                         <p className="text-slate-600 leading-relaxed">
-                            In categories like grocery, lifestyle and general merchandise, online penetration is expected to grow 2–4× from current levels, with quick commerce capturing a disproportionate share of high‑frequency baskets.
+                            In categories like grocery, lifestyle and general merchandise, online penetration is expected to grow 2-4x from current levels, with quick commerce capturing a disproportionate share of high-frequency baskets.
                         </p>
                     </div>
 
@@ -134,7 +134,7 @@ export const WhyQuick2QCommTab: React.FC = () => {
                         <div className="absolute inset-0 bg-grid-white/[0.05] bg-[size:30px_30px]" />
                         <div className="relative z-10 max-w-3xl mx-auto">
                             <p className="text-2xl md:text-3xl font-serif italic text-white leading-relaxed">
-                                "If tier 3's organised grocery moves to 10% online, the 'missing' share for Hyper Market is not footfall—it's margin leaking to apps that own the digital channel."
+                                "If organised grocery in your catchment moves to 10% online, the missing share is not footfall. It is margin leaking to apps that own the digital channel."
                             </p>
                         </div>
                     </div>
@@ -150,23 +150,23 @@ export const WhyQuick2QCommTab: React.FC = () => {
                         title={
                             <div className="flex items-center gap-3 text-emerald-800">
                                 <CheckCircle2 className="w-6 h-6" />
-                                <span className="text-xl font-bold">If Hyper Market Enters Now</span>
+                                <span className="text-xl font-bold">If You Enter Now</span>
                             </div>
                         }
                     >
                         <ul className="space-y-6">
                             <li className="bg-white p-5 rounded-xl shadow-sm border border-emerald-100">
                                 <div className="text-xs font-bold text-emerald-600 uppercase tracking-wider mb-2">Market Potential</div>
-                                <div className="text-slate-700 leading-snug">Assume tier 3 + catchment has ₹3,000–3,500 Cr annual grocery spend. A 10% shift means a <strong className="text-slate-900">₹300–350 Cr online pool</strong>.</div>
+                                <div className="text-slate-700 leading-snug">If even 10% of the annual grocery spend in your catchment shifts online, the addressable market is <strong className="text-slate-900">large enough to sustain a dedicated channel</strong>.</div>
                             </li>
                             <li className="bg-white p-5 rounded-xl shadow-sm border border-emerald-100">
                                 <div className="text-xs font-bold text-emerald-600 uppercase tracking-wider mb-2">Likely Share</div>
-                                <div className="text-slate-700 leading-snug">A strong regional brand can capture 25–35%, driving <strong className="text-slate-900">₹75–120 Cr annual GMV</strong>.</div>
+                                <div className="text-slate-700 leading-snug">A strong regional brand with existing trust can realistically capture <strong className="text-slate-900">25-35% of that online pool</strong>.</div>
                             </li>
                             <li className="bg-emerald-600 p-6 rounded-xl shadow-md text-white mt-2 ring-4 ring-emerald-100">
                                 <div className="text-emerald-100 text-xs font-bold uppercase tracking-wider mb-1">Bottom Line Impact</div>
-                                <div className="text-2xl font-bold">₹9–18 Cr</div>
-                                <div className="text-emerald-100 text-sm mt-1 font-medium">Annual Contribution Profit</div>
+                                <div className="text-2xl font-bold">12-15% Net Margins</div>
+                                <div className="text-emerald-100 text-sm mt-1 font-medium">On Online GMV, from Year 1</div>
                             </li>
                         </ul>
                     </Card>
@@ -177,30 +177,30 @@ export const WhyQuick2QCommTab: React.FC = () => {
                         title={
                             <div className="flex items-center gap-3 text-red-800">
                                 <AlertTriangle className="w-6 h-6" />
-                                <span className="text-xl font-bold">If Hyper Market Waits</span>
+                                <span className="text-xl font-bold">If You Wait</span>
                             </div>
                         }
                     >
                         <ul className="space-y-6">
                             <li className="bg-white p-5 rounded-xl shadow-sm border border-red-100">
                                 <div className="text-xs font-bold text-red-600 uppercase tracking-wider mb-2">Lost Ground</div>
-                                <div className="text-slate-700 leading-snug">External platforms capture 60–70% of the online pool first, leaving Hyper Market to fight for <strong className="text-slate-900">15–20% share</strong>.</div>
+                                <div className="text-slate-700 leading-snug">External platforms capture 60-70% of the online pool first, leaving you to fight for <strong className="text-slate-900">15-20% share</strong> as a latecomer.</div>
                             </li>
                             <li className="bg-white p-5 rounded-xl shadow-sm border border-red-100">
                                 <div className="text-xs font-bold text-red-600 uppercase tracking-wider mb-2">Margin Crunch</div>
-                                <div className="text-slate-700 leading-snug">Selling through aggregators or discount channels compresses margins to <strong className="text-slate-900">5–8%</strong>.</div>
+                                <div className="text-slate-700 leading-snug">Selling through aggregators or discount channels compresses margins to <strong className="text-slate-900">5-8%</strong>.</div>
                             </li>
                             <li className="bg-red-600 p-6 rounded-xl shadow-md text-white mt-2 ring-4 ring-red-100">
                                 <div className="text-red-100 text-xs font-bold uppercase tracking-wider mb-1">Bottom Line Impact</div>
-                                <div className="text-2xl font-bold">₹2–5 Cr</div>
-                                <div className="text-red-100 text-sm mt-1 font-medium">Massive loss compared to entering now.</div>
+                                <div className="text-2xl font-bold">5-8% Margins</div>
+                                <div className="text-red-100 text-sm mt-1 font-medium">On aggregator-dependent sales. No customer data.</div>
                             </li>
                         </ul>
                     </Card>
                 </div>
                 <div className="mt-8 text-center max-w-3xl mx-auto">
                     <p className="text-slate-500 font-medium italic">
-                        "Every year Hyper Market delays quick commerce, it effectively leaves 60–70% of the future online grocery profit in its catchment on the table for outside platforms."
+                        "Every year you delay quick commerce, you leave 60-70% of the future online grocery profit in your catchment on the table for outside platforms."
                     </p>
                 </div>
             </Section>
@@ -211,8 +211,8 @@ export const WhyQuick2QCommTab: React.FC = () => {
                     <div className="grid md:grid-cols-2 gap-12">
                         <ul className="space-y-8">
                             {[
-                                { title: "Customer Behaviour Shifted", desc: "Tier‑3 shoppers are now the majority of India’s new online buyers." },
-                                { title: "Profit Pool Moving", desc: "Almost all new, high‑margin, data‑rich growth is in quick commerce." },
+                                { title: "Customer Behaviour Shifted", desc: "Tier-2/3 shoppers are now the majority of India's new online buyers." },
+                                { title: "Profit Pool Moving", desc: "Almost all new, high-margin, data-rich growth is in quick commerce." },
                                 { title: "Structural Advantage", desc: "Large stores, wide assortment, and trust are things national apps pay billions to replicate." },
                                 { title: "Cost of Inaction", desc: "Waiting lets someone else train your customers to order elsewhere." }
                             ].map((item, i) => (
@@ -230,7 +230,7 @@ export const WhyQuick2QCommTab: React.FC = () => {
 
                         <div className="flex flex-col justify-center border-t md:border-t-0 md:border-l border-slate-700 pt-8 md:pt-0 md:pl-12">
                             <p className="text-xl md:text-2xl font-serif italic leading-relaxed text-slate-200 mb-8">
-                                "The question isn't whether tier 3 will move to app‑based grocery—it already is. The real choice is simple: build Q Comm now and own that shift, or watch other apps earn the margin on your customers."
+                                "The question is not whether your market will move to app-based grocery. It already is. The real choice is simple: build your own channel now and own that shift, or watch other apps earn the margin on your customers."
                             </p>
 
                         </div>

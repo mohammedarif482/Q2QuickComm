@@ -16,18 +16,18 @@ export const ProductTab: React.FC<ProductTabProps> = ({ onTabChange }) => {
                         Quick Commerce Revolution
                     </div>
                     <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-slate-900 leading-tight">
-                        Turn Your Stores Into <br />
-                        <span className="text-green-600">Quick Commerce Hubs</span>
+                        Your Hypermarket, <br />
+                        <span className="text-green-600">Delivered in 30 Minutes</span>
                     </h1>
                     <p className="text-xl md:text-2xl text-slate-500 max-w-2xl mx-auto leading-relaxed">
-                        Enable 30-min delivery using your existing infrastructure. Generate <span className="font-semibold text-slate-900">₹9M profit</span> in Year 1.
+                        Enable 30-min delivery using your existing infrastructure. No dark stores. No new staff model. Just your stores, now online.
                     </p>
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-12">
                         {[
                             { value: "30 Days", label: "Go Live", color: "text-green-600", bg: "bg-white" },
                             { value: "30 Mins", label: "Delivery Time", color: "text-green-600", bg: "bg-white" },
-                            { value: "300%", label: "Year 1 ROI", color: "text-green-600", bg: "bg-white" }
+                            { value: "100%", label: "First-Party Channel", color: "text-green-600", bg: "bg-white" }
                         ].map((stat, i) => (
                             <div key={i} className={`p-6 rounded-2xl ${stat.bg} flex flex-col items-center justify-center border border-slate-200 shadow-lg`}>
                                 <div className={`text-4xl md:text-5xl font-extrabold ${stat.color} mb-2`}>{stat.value}</div>
@@ -43,22 +43,22 @@ export const ProductTab: React.FC<ProductTabProps> = ({ onTabChange }) => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 items-center">
                     <div className="space-y-8">
                         <div className="inline-flex items-center px-4 py-1.5 rounded-full text-xs font-semibold bg-green-100 text-green-800 tracking-wide uppercase">
-                            Built for Hyper Market stores
+                            Built for retail chains
                         </div>
 
                         <h1 className="text-4xl md:text-6xl font-bold tracking-tight leading-[1.1] text-slate-900">
-                            Turn every Hyper Market outlet into a 30‑minute commerce engine.
+                            Turn every retail outlet into a 30-minute commerce engine.
                         </h1>
 
                         <p className="text-lg md:text-xl text-slate-500 leading-relaxed max-w-lg">
-                            A modern quick‑commerce layer on top of your existing POS and stores—no dark warehouses, no new staff model, just one app that makes Hyper Market shoppable from anywhere in the city.
+                            A modern quick-commerce layer on top of your existing POS and stores. No dark warehouses, no new staff model, just one app that makes your brand shoppable from anywhere in the city.
                         </p>
 
                         <ul className="space-y-4 pt-2">
                             {[
                                 "Live inventory from your billing system, not a static catalog.",
-                                "One Hyper Market app for all locations, auto‑routing orders to the right store.",
-                                "Designed to feel as smooth as Swiggy Instamart or Zepto, but fully Hyper Market‑branded."
+                                "One branded app for all locations, auto-routing orders to the nearest store.",
+                                "Designed to feel as smooth as Swiggy Instamart or Zepto, but fully your brand."
                             ].map((item, i) => (
                                 <li key={i} className="flex items-start gap-3">
                                     <div className="mt-1.5 w-5 h-5 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0">
@@ -86,10 +86,10 @@ export const ProductTab: React.FC<ProductTabProps> = ({ onTabChange }) => {
                 <div className="max-w-7xl mx-auto px-6 md:px-8">
                     <div className="max-w-3xl mx-auto text-center space-y-6 mb-20">
                         <h2 className="text-3xl md:text-5xl font-bold text-slate-900 tracking-tight">
-                            A familiar, Instamart‑grade experience—under the Hyper Market brand.
+                            A familiar, Instamart-grade experience. Under your brand.
                         </h2>
                         <p className="text-xl text-slate-500 leading-relaxed">
-                            Customers get the speed and polish they expect from national apps, while Hyper Market keeps the relationship, data, and margin.
+                            Customers get the speed and polish they expect from national apps, while you keep the relationship, data, and margin.
                         </p>
                     </div>
 
@@ -123,15 +123,15 @@ export const ProductTab: React.FC<ProductTabProps> = ({ onTabChange }) => {
                             {[
                                 {
                                     title: "Onboarding & location",
-                                    desc: "“Deliver to Kizhakkethala” with store auto‑selection and promise time, so customers instantly see which Hyper Market branch will serve them."
+                                    desc: "Location-aware store selection with promise time, so customers instantly see which branch will serve them."
                                 },
                                 {
                                     title: "Home & promotions",
-                                    desc: "Hero banner for “Today’s Fresh Picks”, category chips for Groceries, Bakery, Pharmacy and Electronics, and clear space for Hyper Market and partner brand offers."
+                                    desc: "Hero banners for daily promotions, category chips for every department, and dedicated space for your own and partner brand offers."
                                 },
                                 {
                                     title: "Categories & product cards",
-                                    desc: "Clean grids of products with prices, offers and instant add‑to‑cart actions, optimised for quick repeat ordering on small screens."
+                                    desc: "Clean grids of products with prices, offers and instant add-to-cart actions, optimised for quick repeat ordering on small screens."
                                 }
                             ].map((feature, idx) => (
                                 <div key={idx} className="flex gap-6">
@@ -156,7 +156,7 @@ export const ProductTab: React.FC<ProductTabProps> = ({ onTabChange }) => {
                             <div className="w-1 h-1 rounded-full bg-slate-300" />
                             <span>Build Basket</span>
                             <div className="w-1 h-1 rounded-full bg-slate-300" />
-                            <span className="text-green-600">30‑min Delivery</span>
+                            <span className="text-green-600">30-min Delivery</span>
                         </div>
                     </div>
                 </div>
@@ -176,7 +176,7 @@ export const ProductTab: React.FC<ProductTabProps> = ({ onTabChange }) => {
                             color: "text-blue-600",
                             bg: "bg-blue-50",
                             title: "Live catalog from your POS",
-                            desc: "Q Comm plugs directly into your existing billing software, so product names, barcodes, prices and stock levels stay in sync in real‑time across all stores.",
+                            desc: "Q Comm plugs directly into your existing billing software, so product names, barcodes, prices and stock levels stay in sync in real-time across all stores.",
                             sub: "No duplicate catalog management, no manual uploads when MRP or offers change."
                         },
                         {
@@ -184,24 +184,24 @@ export const ProductTab: React.FC<ProductTabProps> = ({ onTabChange }) => {
                             color: "text-green-600",
                             bg: "bg-green-50",
                             title: "One app, many stores",
-                            desc: "Customers see a single Hyper Market experience, while the platform routes each order to the closest store with stock available and capacity to fulfil within the SLA.",
+                            desc: "Customers see a single branded experience, while the platform routes each order to the closest store with stock available and capacity to fulfil within the SLA.",
                             sub: "Every branch runs its own inventory and delivery radius, but management sees it as one unified channel."
                         },
                         {
                             icon: ShoppingBag,
                             color: "text-orange-600",
                             bg: "bg-orange-50",
-                            title: "Operations‑ready store app",
-                            desc: "Store staff get a simple workflow: pick list by aisle, substitution suggestions, pack confirmation and handover to rider—all logged against the order.",
-                            sub: "This turns each Hyper Market location into a mini fulfilment hub without disrupting how billing works today."
+                            title: "Operations-ready store app",
+                            desc: "Store staff get a simple workflow: pick list by aisle, substitution suggestions, pack confirmation and handover to rider. All logged against the order.",
+                            sub: "This turns each store location into a mini fulfilment hub without disrupting how billing works today."
                         },
                         {
                             icon: Zap,
                             color: "text-purple-600",
                             bg: "bg-purple-50",
                             title: "Promotional space",
-                            desc: "Hero banners, category spotlights and “sponsored” product rows give Hyper Market and partner brands prime digital shelf space—mirroring gondolas and end‑caps in your physical stores.",
-                            sub: "Run chain‑wide offers or store‑specific campaigns with just a few clicks."
+                            desc: "Hero banners, category spotlights and sponsored product rows give you and partner brands prime digital shelf space, mirroring in-store promotional zones.",
+                            sub: "Run chain-wide offers or store-specific campaigns with just a few clicks."
                         }
                     ].map((card, i) => (
                         <div key={i} className="group p-8 md:p-10 rounded-[2rem] bg-white border border-slate-100 shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)] transition-all duration-300">
@@ -220,7 +220,7 @@ export const ProductTab: React.FC<ProductTabProps> = ({ onTabChange }) => {
                 </div>
 
                 <p className="mt-12 text-center text-slate-400 text-sm">
-                    Everything is theme‑matched to Hyper Market’s colours and photography.
+                    Everything is theme-matched to your brand's colours and photography.
                 </p>
             </section>
 
@@ -243,13 +243,13 @@ export const ProductTab: React.FC<ProductTabProps> = ({ onTabChange }) => {
                                 </h3>
                                 <ul className="space-y-4 pl-7">
                                     <li className="text-slate-600 leading-relaxed">
-                                        <strong className="font-semibold text-slate-900">Smart search & typo‑tolerance</strong> — Customers find “Sunflower oil” or “brown bread” even with spelling mistakes.
+                                        <strong className="font-semibold text-slate-900">Smart search & typo-tolerance</strong> Customers find "Sunflower oil" or "brown bread" even with spelling mistakes.
                                     </li>
                                     <li className="text-slate-600 leading-relaxed">
-                                        <strong className="font-semibold text-slate-900">Auto‑enriched catalog</strong> — Product images and attributes are pulled from the web and cleaned automatically.
+                                        <strong className="font-semibold text-slate-900">Auto-enriched catalog</strong> Product images and attributes are pulled from the web and cleaned automatically.
                                     </li>
                                     <li className="text-slate-600 leading-relaxed">
-                                        <strong className="font-semibold text-slate-900">Basic recommendations</strong> — “Frequently bought together” nudges to lift AOV.
+                                        <strong className="font-semibold text-slate-900">Basic recommendations</strong> "Frequently bought together" nudges to lift AOV.
                                     </li>
                                 </ul>
                             </div>
@@ -264,7 +264,7 @@ export const ProductTab: React.FC<ProductTabProps> = ({ onTabChange }) => {
                                         <p className="text-sm text-slate-500">Builds baskets from meal plans automatically.</p>
                                     </div>
                                     <div className="p-4 rounded-xl bg-white border border-slate-100 shadow-sm">
-                                        <strong className="block text-slate-900 mb-2">Personalised re‑orders</strong>
+                                        <strong className="block text-slate-900 mb-2">Personalised re-orders</strong>
                                         <p className="text-sm text-slate-500">Learns household rhythm and gently nudges.</p>
                                     </div>
                                     <div className="p-4 rounded-xl bg-white border border-slate-100 shadow-sm">
