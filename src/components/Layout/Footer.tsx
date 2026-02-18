@@ -1,6 +1,4 @@
 import React from 'react';
-import { Button } from 'antd';
-import { Rocket, Mail, Phone, MapPin } from 'lucide-react';
 
 export const Footer: React.FC = () => {
     return (
@@ -38,8 +36,8 @@ export const Footer: React.FC = () => {
                 <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-slate-400 text-sm">
                     <div>© 2024 QComm. All rights reserved.</div>
                     <div className="flex gap-8">
-                        <a href="#" className="hover:text-primary transition-colors">Privacy Policy</a>
-                        <a href="#" className="hover:text-primary transition-colors">Terms of Service</a>
+                        <button className="hover:text-primary transition-colors">Privacy Policy</button>
+                        <button className="hover:text-primary transition-colors">Terms of Service</button>
                     </div>
                 </div>
             </div>

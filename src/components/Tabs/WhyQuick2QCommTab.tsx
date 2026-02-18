@@ -5,8 +5,7 @@ import {
     Smartphone,
     TrendingUp,
     AlertTriangle,
-    CheckCircle2,
-    ArrowRight
+    CheckCircle2
 } from 'lucide-react';
 import { Card } from 'antd';
 

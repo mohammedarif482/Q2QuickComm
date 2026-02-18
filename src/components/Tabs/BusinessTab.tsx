@@ -7,19 +7,15 @@ import {
     Truck,
     Search,
     Database,
-    CreditCard,
     ArrowRight,
     Check,
     Layers,
     MapPin,
     Package,
     Settings,
-    FileText,
-    BarChart,
-    Users
+    FileText
 } from 'lucide-react';
 import { Section } from '../UI/Section';
-import { Button } from 'antd';
 
 interface BusinessTabProps {
     onTabChange?: (key: string) => void;
