@@ -4,9 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
-);
+const rootElement = document.getElementById('root') as HTMLElement;
+
+// Remove static fallback content before React mounts
+const staticFallback = document.getElementById('static-fallback');
+if (staticFallback) {
+  staticFallback.remove();
+}
+
+const root = ReactDOM.createRoot(rootElement);
 root.render(
   <React.StrictMode>
     <App />
